@@ -1,2 +1,0 @@
-/usr/bin/ar qc libssc_server_ros.a CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_visualizer.cc.o
-/usr/bin/ranlib libssc_server_ros.a

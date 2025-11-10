@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbehavior_planner_lib.a CMakeFiles/behavior_planner_lib.dir/src/behavior_planner/behavior_planner.cc.o CMakeFiles/behavior_planner_lib.dir/src/behavior_planner/map_adapter.cc.o
-/usr/bin/ranlib libbehavior_planner_lib.a

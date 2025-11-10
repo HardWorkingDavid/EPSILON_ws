@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhkust_pl_smm.a CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o
-/usr/bin/ranlib libhkust_pl_smm.a

@@ -1,6 +1,0 @@
-[ 42%] Built target phy_simulator_lib
-[ 57%] [32m[1mLinking CXX executable phy_simulator_planning_node[0m
-gmake[2]: *** 正在删除文件“phy_simulator_planning_node”
-gmake[2]: *** [CMakeFiles/phy_simulator_planning_node.dir/build.make:2350: phy_simulator_planning_node] 中断
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/phy_simulator_planning_node.dir/all] 中断
-gmake: *** [Makefile:146: all] 中断

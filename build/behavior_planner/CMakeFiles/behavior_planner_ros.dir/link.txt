@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbehavior_planner_ros.a CMakeFiles/behavior_planner_ros.dir/src/behavior_planner/behavior_server_ros.cc.o
-/usr/bin/ranlib libbehavior_planner_ros.a

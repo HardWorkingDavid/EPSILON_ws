@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target phy_simulator_lib[0m
-[ 42%] Built target phy_simulator_lib
-[35m[1mConsolidate compiler generated dependencies of target phy_simulator_planning_node[0m
-[ 57%] [32m[1mLinking CXX executable phy_simulator_planning_node[0m
