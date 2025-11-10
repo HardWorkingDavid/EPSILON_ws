@@ -1,0 +1,8 @@
+source;share/playgrounds/hook/cmake_prefix_path.ps1
+source;share/playgrounds/hook/cmake_prefix_path.dsv
+source;share/playgrounds/hook/cmake_prefix_path.sh
+source;share/playgrounds/local_setup.bash
+source;share/playgrounds/local_setup.dsv
+source;share/playgrounds/local_setup.ps1
+source;share/playgrounds/local_setup.sh
+source;share/playgrounds/local_setup.zsh

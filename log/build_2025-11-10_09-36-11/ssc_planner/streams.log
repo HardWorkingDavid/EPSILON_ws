@@ -1,0 +1,294 @@
+[0.015s] Invoking command in '/home/bigdavid/EPSILON_ws/build/ssc_planner': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/util/ssc_planner -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/ssc_planner
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.225s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.430s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.466s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.535s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.551s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.558s] -- Looking for pthread.h
+[0.611s] -- Looking for pthread.h - found
+[0.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.661s] -- Found Threads: TRUE  
+[0.697s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.897s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.957s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.957s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.957s] -- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+[1.071s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.072s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.072s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.075s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.075s]   Package 'common' exports the include directory
+[1.075s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.075s]   doesn't exist
+[1.075s] Call Stack (most recent call first):
+[1.075s]   /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+[1.075s]   CMakeLists.txt:21 (find_package)
+[1.075s] 
+[1.075s] [0m
+[1.076s] -- Found semantic_map_manager: 0.0.0 (/home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake)
+[1.430s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.430s]   Package 'vehicle_model' exports the include directory
+[1.430s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.430s]   doesn't exist
+[1.430s] Call Stack (most recent call first):
+[1.430s]   /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+[1.430s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.430s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[1.430s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.430s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+[1.430s]   CMakeLists.txt:22 (find_package)
+[1.430s] 
+[1.431s] [0m
+[1.561s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.561s]   Package 'forward_simulator' exports the include directory
+[1.561s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.561s]   doesn't exist
+[1.561s] Call Stack (most recent call first):
+[1.561s]   /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake:41 (include)
+[1.561s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.561s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[1.561s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.561s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+[1.562s]   CMakeLists.txt:22 (find_package)
+[1.562s] 
+[1.562s] [0m
+[1.568s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.568s]   Package 'motion_predictor' exports the include directory
+[1.568s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.568s]   doesn't exist
+[1.568s] Call Stack (most recent call first):
+[1.568s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[1.568s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.568s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+[1.568s]   CMakeLists.txt:22 (find_package)
+[1.568s] 
+[1.569s] [0m
+[1.601s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.601s]   Package 'vehicle_msgs' exports the include directory
+[1.601s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.601s]   doesn't exist
+[1.602s] Call Stack (most recent call first):
+[1.602s]   /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
+[1.602s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.602s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+[1.602s]   CMakeLists.txt:22 (find_package)
+[1.602s] 
+[1.602s] [0m
+[1.614s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.614s]   Package 'semantic_map_manager' exports the include directory
+[1.614s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.614s]   doesn't exist
+[1.614s] Call Stack (most recent call first):
+[1.614s]   /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+[1.614s]   CMakeLists.txt:22 (find_package)
+[1.614s] 
+[1.615s] [0m
+[1.623s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.626s] -- Found Unwind: /usr/include/x86_64-linux-gnu (found suitable version "1.3.2", minimum required is "1.3.2") 
+[1.628s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[1.628s]   ament_export_include_directories() package 'ssc_planner' exports the
+[1.628s]   include directory
+[1.628s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.628s]   doesn't exist
+[1.628s] Call Stack (most recent call first):
+[1.628s]   CMakeLists.txt:85 (ament_export_include_directories)
+[1.629s] 
+[1.629s] [0m
+[1.629s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[1.629s]   ament_export_include_directories() package 'ssc_planner' exports the
+[1.629s]   include directory
+[1.629s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.629s]   doesn't exist
+[1.629s] Call Stack (most recent call first):
+[1.629s]   CMakeLists.txt:85 (ament_export_include_directories)
+[1.629s] 
+[1.629s] [0m
+[1.631s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[1.631s]   ament_export_include_directories() package 'ssc_planner' exports the
+[1.631s]   include directory
+[1.631s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.631s]   doesn't exist
+[1.631s] Call Stack (most recent call first):
+[1.631s]   CMakeLists.txt:85 (ament_export_include_directories)
+[1.631s] 
+[1.631s] [0m
+[1.632s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[1.632s]   ament_export_include_directories() package 'ssc_planner' exports the
+[1.632s]   include directory
+[1.633s]   '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+[1.633s]   doesn't exist
+[1.633s] Call Stack (most recent call first):
+[1.633s]   CMakeLists.txt:85 (ament_export_include_directories)
+[1.633s] 
+[1.633s] [0m
+[1.691s] -- Configuring done
+[1.698s] -- Generating done
+[1.700s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/ssc_planner
+[1.709s] Invoked command in '/home/bigdavid/EPSILON_ws/build/ssc_planner' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/util/ssc_planner -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/ssc_planner
+[1.709s] Invoking command in '/home/bigdavid/EPSILON_ws/build/ssc_planner': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/ssc_planner -- -j32 -l32
+[1.743s] [ 11%] [34m[1mRunning cpp protocol buffer compiler on proto/ssc_config.proto[0m
+[1.775s] [ 22%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_planner.cc.o[0m
+[1.776s] [ 33%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_map.cc.o[0m
+[1.776s] [ 44%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/map_adapter.cc.o[0m
+[1.776s] [ 55%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/ssc_config.pb.cc.o[0m
+[4.746s] In file included from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_map.h:26[m[K,
+[4.746s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_map.cc:10[m[K:
+[4.746s] In copy constructor ‘[01m[Kcommon::DrivingCorridor::DrivingCorridor(const common::DrivingCorridor&)[m[K’,
+[4.746s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Tp = common::DrivingCorridor][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[4.746s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[4.746s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[4.746s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = common::DrivingCorridor; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+[4.746s]     inlined from ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’ at [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_map.cc:152:36[m[K:
+[4.746s] [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:801:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdriving_corridor.common::DrivingCorridor::id[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.746s]   801 | struct [01;35m[KDrivingCorridor[m[K {
+[4.747s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.747s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_map.cc:[m[K In member function ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’:
+[4.747s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_map.cc:147:27:[m[K [01;36m[Knote: [m[K‘[01m[Kdriving_corridor[m[K’ declared here
+[4.747s]   147 |   common::DrivingCorridor [01;36m[Kdriving_corridor[m[K;
+[4.747s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.517s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::RunQpOptimization()[m[K’:
+[6.517s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:318:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.517s]   318 |         for (int k = 0; [01;35m[Kk < ref_stamps.size()[m[K; ++k) {
+[6.517s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.517s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:324:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.517s]   324 |         for (int k = 0; [01;35m[Kk < forward_trajs_[i].size()[m[K; ++k) {
+[6.518s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.518s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:247:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.518s]   247 |     int [01;35m[Kbeh[m[K = static_cast<int>(forward_behaviors_[i]);
+[6.518s]       |         [01;35m[K^~~[m[K
+[6.518s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::StateTransformForInputData()[m[K’:
+[6.518s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:470:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.518s]   470 |     for (int i = 0; [01;35m[Ki < surround_forward_trajs_.size()[m[K; ++i) {
+[6.518s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.518s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:473:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.518s]   473 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+[6.519s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.519s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:549:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.519s]   549 |     for (int j = 0; [01;35m[Kj < surround_forward_trajs_.size()[m[K; ++j) {
+[6.519s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.519s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:555:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.519s]   555 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+[6.519s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.519s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[6.519s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[6.519s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_planner.cc:9[m[K:
+[6.520s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[6.520s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.520s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[6.520s]       |        [01;35m[K^~~~~~[m[K
+[6.520s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.520s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[6.520s]       |     [01;35m[K^~~~~~[m[K
+[6.520s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.520s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[6.520s]       |        [01;35m[K^~~~~~[m[K
+[6.521s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.521s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[6.521s]       |      [01;35m[K^~~~~~[m[K
+[6.521s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.521s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[6.521s]       |      [01;35m[K^~~~~~[m[K
+[6.531s] [ 66%] [32m[1mLinking CXX static library libhkust_pl_ssc.a[0m
+[6.578s] [ 66%] Built target hkust_pl_ssc
+[6.611s] [ 77%] [32mBuilding CXX object CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o[0m
+[6.611s] [ 88%] [32mBuilding CXX object CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_visualizer.cc.o[0m
+[15.541s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[15.542s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[15.542s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_visualizer.h:17[m[K,
+[15.542s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_visualizer.cc:1[m[K:
+[15.542s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[15.542s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[15.542s]       |        [01;35m[K^~~~~~[m[K
+[15.542s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[15.542s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[15.542s]       |     [01;35m[K^~~~~~[m[K
+[15.542s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[15.542s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[15.542s]       |        [01;35m[K^~~~~~[m[K
+[15.542s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[15.542s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[15.542s]       |      [01;35m[K^~~~~~[m[K
+[15.542s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[15.542s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[15.542s]       |      [01;35m[K^~~~~~[m[K
+[18.936s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlannerServer::FilterSingularityState(vec_E<common::State>&, common::State*)[m[K’:
+[18.936s] [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:104:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwheel_base[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.936s]   104 |   decimal_t [01;35m[Kwheel_base[m[K = 2.85;
+[18.936s]       |             [01;35m[K^~~~~~~~~~[m[K
+[18.936s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[18.936s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[18.936s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_server_ros.h:21[m[K,
+[18.937s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:1[m[K:
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.937s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[18.937s]       |        [01;35m[K^~~~~~[m[K
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.937s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[18.937s]       |     [01;35m[K^~~~~~[m[K
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.937s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[18.937s]       |        [01;35m[K^~~~~~[m[K
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.937s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[18.937s]       |      [01;35m[K^~~~~~[m[K
+[18.937s] [01m[K/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.938s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[18.938s]       |      [01;35m[K^~~~~~[m[K
+[18.950s] [100%] [32m[1mLinking CXX static library libssc_server_ros.a[0m
+[18.990s] [100%] Built target ssc_server_ros
+[19.001s] Invoked command in '/home/bigdavid/EPSILON_ws/build/ssc_planner' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/ssc_planner -- -j32 -l32
+[19.003s] Invoking command in '/home/bigdavid/EPSILON_ws/build/ssc_planner': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/ssc_planner
+[19.010s] -- Install configuration: "Release"
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/config
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/config/ssc_config.pb.txt
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/library_path.sh
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/library_path.dsv
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/lib/libhkust_pl_ssc.a
+[19.011s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/lib/libssc_server_ros.a
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/map_interface.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_planner.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_map.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_server_ros.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/map_adapter.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_visualizer.h
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/package_run_dependencies/ssc_planner
+[19.012s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/parent_prefix_path/ssc_planner
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/ament_prefix_path.sh
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/ament_prefix_path.dsv
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/path.sh
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/path.dsv
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.bash
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.sh
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.zsh
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.dsv
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/package.dsv
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/packages/ssc_planner
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ssc_plannerConfig.cmake
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ssc_plannerConfig-version.cmake
+[19.013s] -- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/package.xml
+[19.015s] Invoked command in '/home/bigdavid/EPSILON_ws/build/ssc_planner' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/ssc_planner

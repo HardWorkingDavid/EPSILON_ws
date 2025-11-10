@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhkust_smm_ros.a CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o
+/usr/bin/ranlib libhkust_smm_ros.a

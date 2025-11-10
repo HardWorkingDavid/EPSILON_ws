@@ -1,0 +1,145 @@
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'common' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+  CMakeLists.txt:25 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_model' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'forward_simulator' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'motion_predictor' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_msgs' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'semantic_map_manager' exports
+  the include directory
+  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
+  doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (ament_export_include_directories)
+
+[0m
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/data_renderer.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::DataRenderer::InjectObservationNoise()[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/data_renderer.cc:78:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   78 |     for (int i = 0; i < 3 && [01;35m[Ki < surrounding_ids.size()[m[K; i++) { // 最多给三辆车加入噪声
+      |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::NaiveRuleBasedLateralBehaviorPrediction(const common::Vehicle&, int, common::ProbDistOfLatBehaviors*)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:112:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprob_nl[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  112 |   decimal_t [01;35m[Kprob_nl[m[K = 0.0;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:113:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprob_nr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  113 |   decimal_t [01;35m[Kprob_nr[m[K = 0.0;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::GetLocalLaneUsingLaneIds(const common::State&, const std::vector<int>&, decimal_t, decimal_t, const bool&, common::Lane*)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:1203:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1203 |     for (int i = 1; [01;35m[Ki < whole_lane_net_.lane_set.at(id).lane_points.size()[m[K;
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::GetLeadingVehicleOnLane(const common::Lane&, const common::State&, const common::VehicleSet&, const decimal_t&, common::Vehicle*, decimal_t*) const[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:1384:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klane_width[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1384 |   const decimal_t [01;35m[Klane_width[m[K = 3.5;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:1393:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfind_occupied[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1393 |   bool [01;35m[Kfind_occupied[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/semantic_map_manager/semantic_map_manager.h:15[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/semantic_map_manager.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::UpdateSemanticVehicles()[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:209:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmax_beh[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  209 |     [01;35m[K*beh = max_beh[m[K;
+      |     [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:202:21:[m[K [01;36m[Knote: [m[K‘[01m[Kmax_beh[m[K’ was declared here
+  202 |     LateralBehavior [01;36m[Kmax_beh[m[K;
+      |                     [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/src/ros_adapter.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:[m[K In constructor ‘[01m[Ksemantic_map_manager::RosAdapter::RosAdapter(std::shared_ptr<rclcpp::Node>, semantic_map_manager::SemanticMapManager*)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:59:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksemantic_map_manager::RosAdapter::p_smm_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   59 |   SemanticMapManager* [01;35m[Kp_smm_[m[K;
+      |                       [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:58:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksemantic_map_manager::DataRenderer* semantic_map_manager::RosAdapter::p_data_renderer_[m[K’ [[01;35m[K-Wreorder[m[K]
+   58 |   DataRenderer* [01;35m[Kp_data_renderer_[m[K;
+      |                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:26:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   26 |   [01;35m[KRosAdapter[m[K(std::shared_ptr<rclcpp::Node> node, SemanticMapManager* ptr_smm)
+      |   [01;35m[K^~~~~~~~~~[m[K

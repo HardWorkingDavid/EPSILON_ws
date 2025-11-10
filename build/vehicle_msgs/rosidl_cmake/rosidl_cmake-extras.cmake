@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(vehicle_msgs_IDL_FILES "msg/State.idl;msg/ControlSignal.idl;msg/Lane.idl;msg/LaneNet.idl;msg/VehicleParam.idl;msg/Vehicle.idl;msg/VehicleSet.idl;msg/OccupancyGridFloat.idl;msg/OccupancyGridUInt8.idl;msg/Circle.idl;msg/CircleObstacle.idl;msg/PolygonObstacle.idl;msg/ObstacleSet.idl;msg/FreeState.idl;msg/ArenaInfo.idl;msg/ArenaInfoDynamic.idl;msg/ArenaInfoStatic.idl")
+set(vehicle_msgs_INTERFACE_FILES "msg/State.msg;msg/ControlSignal.msg;msg/Lane.msg;msg/LaneNet.msg;msg/VehicleParam.msg;msg/Vehicle.msg;msg/VehicleSet.msg;msg/OccupancyGridFloat.msg;msg/OccupancyGridUInt8.msg;msg/Circle.msg;msg/CircleObstacle.msg;msg/PolygonObstacle.msg;msg/ObstacleSet.msg;msg/FreeState.msg;msg/ArenaInfo.msg;msg/ArenaInfoDynamic.msg;msg/ArenaInfoStatic.msg")

@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+-- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found semantic_map_manager: 0.0.0 (/home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake)
+-- Found behavior_planner: 0.0.0 (/home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake)
+-- Found eudm_planner: 0.0.0 (/home/bigdavid/EPSILON_ws/install/eudm_planner/share/eudm_planner/cmake)
+-- Found ssc_planner: 0.0.0 (/home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake)
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Found Unwind: /usr/include/x86_64-linux-gnu (found suitable version "1.3.2", minimum required is "1.3.2") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bigdavid/EPSILON_ws/build/planning_integrated
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ssc_with_mpdm.dir/src/test_ssc_with_mpdm.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_ssc_with_eudm.dir/src/test_ssc_with_eudm.cc.o[0m
+[ 75%] [32m[1mLinking CXX executable test_ssc_with_mpdm[0m
+[100%] [32m[1mLinking CXX executable test_ssc_with_eudm[0m
+[100%] Built target test_ssc_with_mpdm
+[100%] Built target test_ssc_with_eudm
+-- Install configuration: "Release"
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_mpdm
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_mpdm" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_eudm
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_eudm" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_eudm_ros.launch
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_mpdm_ros.launch
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_mpdm_ros_launch.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_eudm_ros_launch.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/package_run_dependencies/planning_integrated
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/parent_prefix_path/planning_integrated
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/ament_prefix_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/ament_prefix_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.bash
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.zsh
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/package.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/packages/planning_integrated
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/planning_integratedConfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/planning_integratedConfig-version.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/package.xml
