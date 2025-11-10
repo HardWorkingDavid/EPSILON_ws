@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hkust_pl_rp.dir/src/route_planner/route_planner.cc.o[0m
+[100%] [32m[1mLinking CXX static library libhkust_pl_rp.a[0m
+[100%] Built target hkust_pl_rp
+-- Install configuration: "Release"
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/library_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/library_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/lib/libhkust_pl_rp.a
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/include
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/include/route_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/include/route_planner/route_planner.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/ament_index/resource_index/package_run_dependencies/route_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/ament_index/resource_index/parent_prefix_path/route_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/ament_prefix_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/environment/path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/local_setup.bash
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/local_setup.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/local_setup.zsh
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/package.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/ament_index/resource_index/packages/route_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/cmake/route_plannerConfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/cmake/route_plannerConfig-version.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/route_planner/share/route_planner/package.xml

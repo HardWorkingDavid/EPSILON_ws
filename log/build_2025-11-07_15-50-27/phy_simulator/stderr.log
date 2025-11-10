@@ -1,0 +1,67 @@
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'common' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_model' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_msgs' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'phy_simulator' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:92 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'phy_simulator' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:92 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'phy_simulator' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:92 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'phy_simulator' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:92 (ament_export_include_directories)
+
+[0m
+gmake[2]: *** 正在删除文件“phy_simulator_planning_node”
+gmake[2]: *** [CMakeFiles/phy_simulator_planning_node.dir/build.make:2350: phy_simulator_planning_node] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/phy_simulator_planning_node.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target behavior_planner_lib[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/behavior_planner_lib.dir/src/behavior_planner/behavior_planner.cc.o[0m
+[ 40%] [32m[1mLinking CXX static library libbehavior_planner_lib.a[0m
+[ 60%] Built target behavior_planner_lib
+[ 80%] [32mBuilding CXX object CMakeFiles/behavior_planner_ros.dir/src/behavior_planner/behavior_server_ros.cc.o[0m
+[100%] [32m[1mLinking CXX static library libbehavior_planner_ros.a[0m
+[100%] Built target behavior_planner_ros
+-- Install configuration: "Release"
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/library_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/library_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/lib/libbehavior_planner_lib.a
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/lib/libbehavior_planner_ros.a
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/map_interface.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/behavior_planner.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/behavior_server_ros.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/map_adapter.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/visualizer.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/package_run_dependencies/behavior_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/parent_prefix_path/behavior_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/ament_prefix_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.bash
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.zsh
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/package.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/packages/behavior_planner
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/behavior_plannerConfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/behavior_plannerConfig-version.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/package.xml

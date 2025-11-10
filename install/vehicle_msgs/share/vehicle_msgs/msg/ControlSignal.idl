@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vehicle_msgs/msg/ControlSignal.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Bool.idl"
+#include "std_msgs/msg/Header.idl"
+#include "vehicle_msgs/msg/State.idl"
+
+module vehicle_msgs {
+  module msg {
+    struct ControlSignal {
+      std_msgs::msg::Header header;
+
+      double acc;
+
+      double steer_rate;
+
+      @verbatim (language="comment", text=
+        "if open_loop is set, use the state as desired state" "\n"
+        "and omit the control loop")
+      std_msgs::msg::Bool is_openloop;
+
+      vehicle_msgs::msg::State state;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhkust_eudm_ros.a CMakeFiles/hkust_eudm_ros.dir/src/eudm_planner/eudm_server_ros.cc.o
+/usr/bin/ranlib libhkust_eudm_ros.a

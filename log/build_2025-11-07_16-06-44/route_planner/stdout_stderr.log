@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hkust_pl_rp.dir/src/route_planner/route_planner.cc.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/route_planner/include/route_planner/route_planner.h:17[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/route_planner/src/route_planner/route_planner.cc:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Krcl/guard_condition.h: 没有那个文件或目录
+   30 | #include [01;31m[K"rcl/guard_condition.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hkust_pl_rp.dir/build.make:76：CMakeFiles/hkust_pl_rp.dir/src/route_planner/route_planner.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hkust_pl_rp.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

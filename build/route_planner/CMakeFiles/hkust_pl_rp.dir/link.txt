@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhkust_pl_rp.a CMakeFiles/hkust_pl_rp.dir/src/route_planner/route_planner.cc.o
+/usr/bin/ranlib libhkust_pl_rp.a

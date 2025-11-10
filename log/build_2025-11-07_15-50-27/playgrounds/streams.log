@@ -1,0 +1,79 @@
+[0.006s] Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/playgrounds
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.134s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.366s] -- Configuring done
+[0.368s] -- Generating done
+[0.369s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/playgrounds
+[0.373s] Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/playgrounds
+[0.374s] Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/playgrounds -- -j32 -l32
+[0.401s] Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/playgrounds -- -j32 -l32
+[0.408s] Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/playgrounds
+[0.414s] -- Install configuration: ""
+[0.414s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite
+[0.414s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/obstacles_norm.json
+[0.414s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/vehicle_set.json
+[0.414s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/agent_config.json
+[0.414s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/lane_net_norm.json
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/obstacles_norm.json
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/vehicle_set.json
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/agent_config.json
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/lane_net_norm.json
+[0.415s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/obstacles_norm.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/vehicle_set.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/agent_config.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/lane_net_norm.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/obstacles_norm.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/vehicle_set.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/agent_config.json
+[0.416s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/lane_net_norm.json
+[0.416s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/obstacles_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/vehicle_set.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/agent_config.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_lite/lane_net_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/obstacles_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/vehicle_set.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/agent_config.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/highway_v1.0/lane_net_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/obstacles_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/vehicle_set.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/agent_config.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_small_v1.0/lane_net_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/obstacles_norm.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/vehicle_set.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/agent_config.json
+[0.417s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/ring_tiny_v1.0/lane_net_norm.json
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/ament_index/resource_index/package_run_dependencies/playgrounds
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/ament_index/resource_index/parent_prefix_path/playgrounds
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/environment/ament_prefix_path.sh
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/environment/ament_prefix_path.dsv
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/environment/path.sh
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/environment/path.dsv
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/local_setup.bash
+[0.417s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/local_setup.sh
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/local_setup.zsh
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/local_setup.dsv
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/package.dsv
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/ament_index/resource_index/packages/playgrounds
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/cmake/playgroundsConfig.cmake
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/cmake/playgroundsConfig-version.cmake
+[0.418s] -- Installing: /home/bigdavid/EPSILON_ws/install/playgrounds/share/playgrounds/package.xml
+[0.420s] Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/playgrounds

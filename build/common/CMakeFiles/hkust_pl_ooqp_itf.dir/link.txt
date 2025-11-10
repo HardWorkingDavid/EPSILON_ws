@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhkust_pl_ooqp_itf.a CMakeFiles/hkust_pl_ooqp_itf.dir/src/common/solver/ooqp_interface.cc.o CMakeFiles/hkust_pl_ooqp_itf.dir/src/common/solver/qp_solver.cc.o
+/usr/bin/ranlib libhkust_pl_ooqp_itf.a

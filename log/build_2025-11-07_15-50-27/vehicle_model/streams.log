@@ -1,0 +1,104 @@
+[0.006s] Invoking command in '/home/bigdavid/EPSILON_ws/build/vehicle_model': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/vehicle_model
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.361s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.413s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.418s] -- Looking for pthread.h
+[0.462s] -- Looking for pthread.h - found
+[0.462s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.503s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.504s] -- Found Threads: TRUE  
+[0.529s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.555s] -- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+[0.632s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.632s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.632s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.634s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[0.634s]   Package 'common' exports the include directory
+[0.634s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.634s]   which doesn't exist
+[0.634s] Call Stack (most recent call first):
+[0.634s]   /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+[0.634s]   CMakeLists.txt:19 (find_package)
+[0.634s] 
+[0.634s] [0m
+[0.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.641s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[0.641s]   ament_export_include_directories() package 'vehicle_model' exports the
+[0.641s]   include directory
+[0.641s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.641s]   which doesn't exist
+[0.641s] Call Stack (most recent call first):
+[0.641s]   CMakeLists.txt:65 (ament_export_include_directories)
+[0.641s] 
+[0.641s] [0m
+[0.685s] -- Configuring done
+[0.696s] -- Generating done
+[0.698s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/vehicle_model
+[0.704s] Invoked command in '/home/bigdavid/EPSILON_ws/build/vehicle_model' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/vehicle_model
+[0.704s] Invoking command in '/home/bigdavid/EPSILON_ws/build/vehicle_model': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/vehicle_model -- -j32 -l32
+[0.741s] [ 11%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o[0m
+[0.742s] [ 22%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o[0m
+[0.742s] [ 33%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o[0m
+[0.742s] [ 44%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o[0m
+[0.742s] [ 55%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o[0m
+[0.742s] [ 66%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o[0m
+[0.743s] [ 77%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o[0m
+[0.743s] [ 88%] [32mBuilding CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o[0m
+[1.783s] [100%] [32m[1mLinking CXX static library libhkust_pl_vehicle_model.a[0m
+[1.808s] [100%] Built target hkust_pl_vehicle_model
+[1.816s] Invoked command in '/home/bigdavid/EPSILON_ws/build/vehicle_model' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/vehicle_model -- -j32 -l32
+[1.818s] Invoking command in '/home/bigdavid/EPSILON_ws/build/vehicle_model': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/vehicle_model
+[1.822s] -- Install configuration: "Release"
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/library_path.sh
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/library_path.dsv
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/vehicle_model.h
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/idm_model.h
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/pure_pursuit_controller.h
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/ctx_idm_velocity_controller.h
+[1.822s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/pid_controller.h
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/idm_velocity_controller.h
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/ctx_idm_model.h
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/ideal_steer_model.h
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/lib/libhkust_pl_vehicle_model.a
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/package_run_dependencies/vehicle_model
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/parent_prefix_path/vehicle_model
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/ament_prefix_path.sh
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/ament_prefix_path.dsv
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/path.sh
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/path.dsv
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.bash
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.sh
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.zsh
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.dsv
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/package.dsv
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/packages/vehicle_model
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_libraries-extras.cmake
+[1.823s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.824s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.824s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake
+[1.824s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig-version.cmake
+[1.824s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/package.xml
+[1.824s] Invoked command in '/home/bigdavid/EPSILON_ws/build/vehicle_model' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/vehicle_model

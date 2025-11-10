@@ -1,0 +1,35 @@
+[ 66%] Built target hkust_pl_ssc
+[100%] Built target ssc_server_ros
+-- Install configuration: "Release"
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/config
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/config/ssc_config.pb.txt
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/library_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/library_path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/lib/libhkust_pl_ssc.a
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/lib/libssc_server_ros.a
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/map_interface.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_planner.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_map.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_server_ros.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/map_adapter.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/include/ssc_planner/ssc_visualizer.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/package_run_dependencies/ssc_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/parent_prefix_path/ssc_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/environment/path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.bash
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.zsh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/package.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ament_index/resource_index/packages/ssc_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ssc_plannerConfig.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/cmake/ssc_plannerConfig-version.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ssc_planner/share/ssc_planner/package.xml

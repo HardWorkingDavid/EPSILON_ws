@@ -1,0 +1,2 @@
+/usr/bin/ar qc libphy_simulator_lib.a CMakeFiles/phy_simulator_lib.dir/src/phy_simulator/arena_loader.cc.o CMakeFiles/phy_simulator_lib.dir/src/phy_simulator/phy_simulator.cc.o
+/usr/bin/ranlib libphy_simulator_lib.a

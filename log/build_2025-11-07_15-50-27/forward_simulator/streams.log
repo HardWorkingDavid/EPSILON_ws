@@ -1,0 +1,104 @@
+[0.009s] Invoking command in '/home/bigdavid/EPSILON_ws/build/forward_simulator': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/forward_simulator -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/forward_simulator
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.138s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.381s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.486s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.491s] -- Looking for pthread.h
+[0.537s] -- Looking for pthread.h - found
+[0.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.588s] -- Found Threads: TRUE  
+[0.620s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.650s] -- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+[0.746s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.747s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.747s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.749s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[0.749s]   Package 'common' exports the include directory
+[0.749s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.749s]   which doesn't exist
+[0.749s] Call Stack (most recent call first):
+[0.749s]   /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+[0.749s]   CMakeLists.txt:18 (find_package)
+[0.749s] 
+[0.749s] [0m
+[0.751s] -- Found vehicle_model: 0.0.0 (/home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake)
+[0.762s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[0.763s]   Package 'vehicle_model' exports the include directory
+[0.763s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.763s]   which doesn't exist
+[0.763s] Call Stack (most recent call first):
+[0.763s]   /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+[0.763s]   CMakeLists.txt:19 (find_package)
+[0.763s] 
+[0.763s] [0m
+[0.897s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[0.897s]   ament_export_include_directories() package 'forward_simulator' exports the
+[0.897s]   include directory
+[0.897s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.897s]   which doesn't exist
+[0.897s] Call Stack (most recent call first):
+[0.897s]   CMakeLists.txt:41 (ament_export_include_directories)
+[0.897s] 
+[0.898s] [0m
+[0.898s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[0.898s]   ament_export_include_directories() package 'forward_simulator' exports the
+[0.898s]   include directory
+[0.898s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[0.898s]   which doesn't exist
+[0.898s] Call Stack (most recent call first):
+[0.898s]   CMakeLists.txt:41 (ament_export_include_directories)
+[0.898s] 
+[0.898s] [0m
+[0.950s] -- Configuring done
+[0.956s] -- Generating done
+[0.956s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/forward_simulator
+[0.968s] Invoked command in '/home/bigdavid/EPSILON_ws/build/forward_simulator' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/forward_simulator -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/forward_simulator
+[0.968s] Invoking command in '/home/bigdavid/EPSILON_ws/build/forward_simulator': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/forward_simulator -- -j32 -l32
+[1.005s] Invoked command in '/home/bigdavid/EPSILON_ws/build/forward_simulator' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/forward_simulator -- -j32 -l32
+[1.006s] Invoking command in '/home/bigdavid/EPSILON_ws/build/forward_simulator': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/forward_simulator
+[1.016s] -- Install configuration: "Release"
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/library_path.sh
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/library_path.dsv
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/include
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/include/forward_simulator
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/include/forward_simulator/multimodal_forward.h
+[1.016s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/include/forward_simulator/onlane_forward_simulation.h
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/ament_index/resource_index/package_run_dependencies/forward_simulator
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/ament_index/resource_index/parent_prefix_path/forward_simulator
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/ament_prefix_path.sh
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/ament_prefix_path.dsv
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/path.sh
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/environment/path.dsv
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/local_setup.bash
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/local_setup.sh
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/local_setup.zsh
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/local_setup.dsv
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/package.dsv
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/ament_index/resource_index/packages/forward_simulator
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_libraries-extras.cmake
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig-version.cmake
+[1.017s] -- Installing: /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/package.xml
+[1.025s] Invoked command in '/home/bigdavid/EPSILON_ws/build/forward_simulator' returned '0': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/forward_simulator

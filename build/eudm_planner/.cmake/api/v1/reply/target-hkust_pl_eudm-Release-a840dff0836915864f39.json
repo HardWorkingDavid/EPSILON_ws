@@ -1,0 +1,398 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libhkust_pl_eudm.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "GFLAGS_IS_A_DLL=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rclcpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/ament_index_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/libstatistics_collector"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rcl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rcpputils"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosgraph_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rcl_yaml_param_parser"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/statistics_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/tracetools"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/visualization_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/sensor_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/tf2_ros"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/tf2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/tf2_geometry_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/common/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rcl_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rclcpp_components"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/message_filters"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rclcpp_action"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/tf2_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/vehicle_model/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/forward_simulator/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/motion_predictor/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/semantic_map_manager/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/std_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/nav_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rmw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/install/route_planner/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bigdavid/EPSILON_ws/build/eudm_planner"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "hkust_pl_eudm::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/bigdavid/EPSILON_ws/install/eudm_planner"
+		}
+	},
+	"name" : "hkust_pl_eudm",
+	"nameOnDisk" : "libhkust_pl_eudm.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/eudm_planner/eudm_planner.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/eudm_planner/map_adapter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/eudm_planner/eudm_manager.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/eudm_planner/dcp_tree.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bigdavid/EPSILON_ws/build/eudm_planner/eudm_config.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bigdavid/EPSILON_ws/build/eudm_planner/eudm_config.pb.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

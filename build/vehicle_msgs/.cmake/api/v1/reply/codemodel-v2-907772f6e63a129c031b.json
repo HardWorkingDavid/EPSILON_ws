@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aca948bcbd801b0234e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vehicle_msgs__py",
+					"jsonFile" : "directory-vehicle_msgs__py-cbd8d41373354c3b4a0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bigdavid/EPSILON_ws/build/vehicle_msgs/vehicle_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vehicle_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vehicle_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vehicle_msgs_egg-22df1892ca99f430ff31.json",
+					"name" : "ament_cmake_python_build_vehicle_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vehicle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vehicle_msgs-296822307abf82236614.json",
+					"name" : "ament_cmake_python_copy_vehicle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d36ab40982dd974a5881.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs-97afd76f735f50ec9777.json",
+					"name" : "vehicle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__cpp-ea9fd9e08f146269aff0.json",
+					"name" : "vehicle_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vehicle_msgs__py::@8b6396c5842405936b5b",
+					"jsonFile" : "target-vehicle_msgs__py-3b365d98e2d4db80c947.json",
+					"name" : "vehicle_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_generator_c-647b88c33fc714aca12c.json",
+					"name" : "vehicle_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_generator_py-682e8b2863d4450a1f18.json",
+					"name" : "vehicle_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_c-7b68a8f9acf80b54faf6.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_c__pyext-21f47ddb9ce118cc4c06.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_cpp-7f9747b0bf3e02a6a300.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_fastrtps_c-89d472c8195dfa26dc41.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext-8d1f790823c85b25be45.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_fastrtps_cpp-2744d27b4b3fcc247209.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_introspection_c-bcf7047cfb4b29eb9016.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_introspection_c__pyext-7c3ed5e106eb2d01757c.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs__rosidl_typesupport_introspection_cpp-3f373860eff075da7a6f.json",
+					"name" : "vehicle_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_msgs_uninstall-e7a4d1f57122ff99cada.json",
+					"name" : "vehicle_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bigdavid/EPSILON_ws/build/vehicle_msgs",
+		"source" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

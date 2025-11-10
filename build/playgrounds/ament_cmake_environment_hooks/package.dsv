@@ -1,0 +1,4 @@
+source;share/playgrounds/local_setup.bash
+source;share/playgrounds/local_setup.dsv
+source;share/playgrounds/local_setup.sh
+source;share/playgrounds/local_setup.zsh

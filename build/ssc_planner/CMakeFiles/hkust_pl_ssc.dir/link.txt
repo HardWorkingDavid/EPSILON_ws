@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhkust_pl_ssc.a CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_planner.cc.o CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_map.cc.o CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/map_adapter.cc.o CMakeFiles/hkust_pl_ssc.dir/ssc_config.pb.cc.o
+/usr/bin/ranlib libhkust_pl_ssc.a

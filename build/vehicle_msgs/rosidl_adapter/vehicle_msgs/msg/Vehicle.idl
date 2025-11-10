@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vehicle_msgs/msg/Vehicle.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "std_msgs/msg/Int32.idl"
+#include "std_msgs/msg/String.idl"
+#include "vehicle_msgs/msg/State.idl"
+#include "vehicle_msgs/msg/VehicleParam.idl"
+
+module vehicle_msgs {
+  module msg {
+    struct Vehicle {
+      std_msgs::msg::Header header;
+
+      std_msgs::msg::Int32 id;
+
+      std_msgs::msg::String subclass;
+
+      std_msgs::msg::String type;
+
+      vehicle_msgs::msg::VehicleParam param;
+
+      vehicle_msgs::msg::State state;
+    };
+  };
+};

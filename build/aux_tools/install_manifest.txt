@@ -1,0 +1,15 @@
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/ament_index/resource_index/package_run_dependencies/aux_tools
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/ament_index/resource_index/parent_prefix_path/aux_tools
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/environment/ament_prefix_path.sh
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/environment/ament_prefix_path.dsv
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/environment/path.sh
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/environment/path.dsv
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/local_setup.bash
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/local_setup.sh
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/local_setup.zsh
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/local_setup.dsv
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/package.dsv
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/ament_index/resource_index/packages/aux_tools
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/cmake/aux_toolsConfig.cmake
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/cmake/aux_toolsConfig-version.cmake
+/home/bigdavid/EPSILON_ws/install/aux_tools/share/aux_tools/package.xml

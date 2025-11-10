@@ -1,0 +1,112 @@
+[0.017s] Invoking command in '/home/bigdavid/EPSILON_ws/build/ssc_planner': CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager:/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/home/bigdavid/EPSILON_ws/install/planning_integrated:/home/bigdavid/EPSILON_ws/install/ssc_planner:/home/bigdavid/EPSILON_ws/install/eudm_planner:/home/bigdavid/EPSILON_ws/install/ai_agent_planner:/home/bigdavid/EPSILON_ws/install/behavior_planner:/home/bigdavid/EPSILON_ws/install/route_planner:/home/bigdavid/EPSILON_ws/install/phy_simulator:/home/bigdavid/EPSILON_ws/install/aux_tools:/home/bigdavid/EPSILON_ws/install/utm_to_car_transform:/home/bigdavid/EPSILON_ws/install/playgrounds:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/ssc_planner/lib:/home/bigdavid/EPSILON_ws/install/eudm_planner/lib:/home/bigdavid/EPSILON_ws/install/behavior_planner/lib:/home/bigdavid/EPSILON_ws/install/route_planner/lib:/home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib:/home/bigdavid/EPSILON_ws/install/phy_simulator/lib:/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/local/cuda/lib64:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/ssc_planner -- -j32 -l32
+[0.043s] [ 11%] [34m[1mRunning cpp protocol buffer compiler on proto/ssc_config.proto[0m
+[0.070s] [ 22%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_map.cc.o[0m
+[0.071s] [ 33%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/ssc_planner.cc.o[0m
+[0.071s] [ 44%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/src/ssc_planner/map_adapter.cc.o[0m
+[0.072s] [ 55%] [32mBuilding CXX object CMakeFiles/hkust_pl_ssc.dir/ssc_config.pb.cc.o[0m
+[0.078s] In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_map.h:26[m[K,
+[0.078s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:10[m[K:
+[0.078s] In copy constructor ‘[01m[Kcommon::DrivingCorridor::DrivingCorridor(const common::DrivingCorridor&)[m[K’,
+[0.078s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Tp = common::DrivingCorridor][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[0.078s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[0.078s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[0.078s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = common::DrivingCorridor; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+[0.078s]     inlined from ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’ at [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:152:36[m[K:
+[0.078s] [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:801:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdriving_corridor.common::DrivingCorridor::id[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+[0.078s]   801 | struct [01;35m[KDrivingCorridor[m[K {
+[0.078s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.078s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:[m[K In member function ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’:
+[0.079s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:147:27:[m[K [01;36m[Knote: [m[K‘[01m[Kdriving_corridor[m[K’ declared here
+[0.079s]   147 |   common::DrivingCorridor [01;36m[Kdriving_corridor[m[K;
+[0.079s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.083s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::RunQpOptimization()[m[K’:
+[0.083s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:318:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.083s]   318 |         for (int k = 0; [01;35m[Kk < ref_stamps.size()[m[K; ++k) {
+[0.083s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[0.083s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:324:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.083s]   324 |         for (int k = 0; [01;35m[Kk < forward_trajs_[i].size()[m[K; ++k) {
+[0.083s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.083s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:247:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.083s]   247 |     int [01;35m[Kbeh[m[K = static_cast<int>(forward_behaviors_[i]);
+[0.083s]       |         [01;35m[K^~~[m[K
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::StateTransformForInputData()[m[K’:
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:470:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.084s]   470 |     for (int i = 0; [01;35m[Ki < surround_forward_trajs_.size()[m[K; ++i) {
+[0.084s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:473:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.084s]   473 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+[0.084s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:549:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.084s]   549 |     for (int j = 0; [01;35m[Kj < surround_forward_trajs_.size()[m[K; ++j) {
+[0.084s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:555:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.084s]   555 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+[0.084s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[0.084s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[0.084s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[0.084s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:9[m[K:
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.084s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[0.084s]       |        [01;35m[K^~~~~~[m[K
+[0.084s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.085s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[0.085s]       |     [01;35m[K^~~~~~[m[K
+[0.085s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.085s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[0.085s]       |        [01;35m[K^~~~~~[m[K
+[0.085s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.085s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[0.085s]       |      [01;35m[K^~~~~~[m[K
+[0.085s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.085s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[0.085s]       |      [01;35m[K^~~~~~[m[K
+[0.264s] [ 66%] [32m[1mLinking CXX static library libhkust_pl_ssc.a[0m
+[0.291s] [ 66%] Built target hkust_pl_ssc
+[0.306s] [ 77%] [32mBuilding CXX object CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_visualizer.cc.o[0m
+[0.307s] [ 88%] [32mBuilding CXX object CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o[0m
+[0.326s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[0.326s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[0.326s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_visualizer.h:17[m[K,
+[0.326s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_visualizer.cc:1[m[K:
+[0.326s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.326s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[0.326s]       |        [01;35m[K^~~~~~[m[K
+[0.326s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.326s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[0.326s]       |     [01;35m[K^~~~~~[m[K
+[0.326s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.326s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[0.326s]       |        [01;35m[K^~~~~~[m[K
+[0.326s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.327s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[0.327s]       |      [01;35m[K^~~~~~[m[K
+[0.327s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.327s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[0.327s]       |      [01;35m[K^~~~~~[m[K
+[0.608s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlannerServer::FilterSingularityState(vec_E<common::State>&, common::State*)[m[K’:
+[0.608s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:104:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwheel_base[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.608s]   104 |   decimal_t [01;35m[Kwheel_base[m[K = 2.85;
+[0.608s]       |             [01;35m[K^~~~~~~~~~[m[K
+[0.608s] In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+[0.608s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+[0.608s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_server_ros.h:21[m[K,
+[0.608s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:1[m[K:
+[0.608s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[0.609s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.609s]   371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+[0.609s]       |        [01;35m[K^~~~~~[m[K
+[0.609s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.609s]   369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+[0.609s]       |     [01;35m[K^~~~~~[m[K
+[0.609s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.609s]   347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+[0.609s]       |        [01;35m[K^~~~~~[m[K
+[0.609s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.609s]   255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+[0.609s]       |      [01;35m[K^~~~~~[m[K
+[0.609s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.609s]   244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+[0.609s]       |      [01;35m[K^~~~~~[m[K
+[0.620s] [100%] [32m[1mLinking CXX static library libssc_server_ros.a[0m
+[0.649s] [100%] Built target ssc_server_ros
