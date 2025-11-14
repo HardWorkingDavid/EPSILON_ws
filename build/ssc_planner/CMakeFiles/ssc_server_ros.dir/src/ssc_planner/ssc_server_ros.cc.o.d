@@ -1,7 +1,7 @@
 CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc \
  /usr/include/stdc-predef.h \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_server_ros.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_server_ros.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -421,7 +421,7 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /usr/local/include/eigen3/Eigen/StdVector \
  /usr/local/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/local/include/eigen3/Eigen/src/StlSupport/details.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/backward.hpp \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/backward.hpp \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -1057,9 +1057,9 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/moodycamel/atomicops.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/moodycamel/atomicops.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/moodycamel/readerwriterqueue.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/moodycamel/readerwriterqueue.h \
  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/semantic_map_manager.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/mobil/mobil_behavior_prediction.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/idm/intelligent_driver_model.h \
@@ -1108,7 +1108,7 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/pure_pursuit_controller.h \
  /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/ideal_steer_model.h \
  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/config_loader.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/json/json.hpp \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/json/json.hpp \
  /usr/include/c++/11/ciso646 /usr/include/c++/11/forward_list \
  /usr/include/c++/11/bits/forward_list.h \
  /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/valarray \
@@ -1133,9 +1133,9 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/map_adapter.h \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/map_interface.h \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_planner.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/map_adapter.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/map_interface.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/interface/planner.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/primitive/frenet_primitive.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h \
@@ -1176,7 +1176,7 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/spline/bezier.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/trajectory/frenet_bezier_traj.h \
  /home/bigdavid/EPSILON_ws/install/common/include/common/trajectory/frenet_primitive_traj.h \
  /home/bigdavid/EPSILON_ws/build/ssc_planner/ssc_config.pb.h \
@@ -1228,7 +1228,7 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /usr/include/google/protobuf/stubs/stl_util.h \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/extension_set.h \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_map.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_map.h \
  /usr/include/opencv4/opencv2/highgui/highgui.hpp \
  /usr/include/opencv4/opencv2/highgui.hpp \
  /usr/include/opencv4/opencv2/imgcodecs.hpp \
@@ -1236,7 +1236,7 @@ CMakeFiles/ssc_server_ros.dir/src/ssc_planner/ssc_server_ros.cc.o: \
  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv4/opencv2/imgproc.hpp \
  /usr/include/opencv4/opencv2/./imgproc/segmentation.hpp \
- /home/bigdavid/EPSILON_ws/src/util/ssc_planner/include/ssc_planner/ssc_visualizer.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_visualizer.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/control_signal.hpp \
  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__struct.hpp \

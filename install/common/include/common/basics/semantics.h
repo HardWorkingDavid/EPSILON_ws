@@ -157,12 +157,12 @@ enum class LongitudinalBehavior {
 };
 
 enum class LateralBehavior {
-  kUndefined = 0,     // 0 未定义横向行为
-  kLaneKeeping,       // 1 车道保持
-  kLaneChangeLeft,    // 2 左变道
-  kLaneChangeRight,   // 3 右变道
-  kNudgeLeft,    // 新增：4 左微移
-  kNudgeRight    // 新增：5 右微移
+  kUndefined = 0,
+  kLaneKeeping,         // 1
+  kLaneChangeLeft,      // 2
+  kLaneChangeRight,     // 3
+  kNudgeLeft,           // 4 新增：向左偏移
+  kNudgeRight           // 5 新增：向右偏移
 };
 
 struct EnumClassHash {
@@ -177,7 +177,9 @@ struct ProbDistOfLatBehaviors {
   std::unordered_map<LateralBehavior, decimal_t, EnumClassHash> probs{
       {common::LateralBehavior::kLaneChangeLeft, 0.0},
       {common::LateralBehavior::kLaneChangeRight, 0.0},
-      {common::LateralBehavior::kLaneKeeping, 0.0}};
+      {common::LateralBehavior::kLaneKeeping, 0.0},
+      {common::LateralBehavior::kNudgeLeft, 0.0},
+      {common::LateralBehavior::kNudgeRight, 0.0},};
 
   void SetEntry(const LateralBehavior &beh, const decimal_t &val) {
     probs[beh] = val;
@@ -256,8 +258,6 @@ struct SemanticVehicle {
   // * argmax behavior
   LateralBehavior lat_behavior{LateralBehavior::kUndefined};
   Lane lane;
-
-  decimal_t lat_offset;
 };
 
 struct SemanticVehicleSet {
@@ -921,14 +921,6 @@ class SemanticsUtils {
       }
       case LateralBehavior::kLaneChangeRight: {
         b_str = std::string("R");
-        break;
-      }
-      case LateralBehavior::kNudgeLeft: {
-        b_str = std::string("N_L");  // Nudge Left缩写
-        break;
-      }
-      case LateralBehavior::kNudgeRight: {
-        b_str = std::string("N_R");  // Nudge Right缩写
         break;
       }
       default: {

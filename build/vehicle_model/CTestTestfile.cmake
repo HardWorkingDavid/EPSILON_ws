@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/bigdavid/EPSILON_ws/src/core/vehicle_model
+# Source directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model
 # Build directory: /home/bigdavid/EPSILON_ws/build/vehicle_model
 # 
 # This file includes the relevant testing commands required for 

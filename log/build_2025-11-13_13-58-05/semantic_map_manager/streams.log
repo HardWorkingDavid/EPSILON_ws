@@ -1,0 +1,262 @@
+[0.050s] Invoking command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/semantic_map_manager
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.459s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.779s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.834s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.840s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.850s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.967s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.977s] -- Looking for pthread.h
+[1.078s] -- Looking for pthread.h - found
+[1.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.171s] -- Found Threads: TRUE  
+[1.231s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.297s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.310s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.416s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.429s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.430s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.430s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.442s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.444s] -- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+[1.480s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.480s]   Package 'common' exports the include directory
+[1.480s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[1.480s]   which doesn't exist
+[1.480s] Call Stack (most recent call first):
+[1.481s]   /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+[1.481s]   CMakeLists.txt:25 (find_package)
+[1.481s] 
+[1.481s] [0m
+[1.483s] -- Found motion_predictor: 0.0.0 (/home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake)
+[2.030s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[2.030s]   Package 'vehicle_model' exports the include directory
+[2.031s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.031s]   which doesn't exist
+[2.031s] Call Stack (most recent call first):
+[2.031s]   /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+[2.031s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.031s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[2.031s]   CMakeLists.txt:26 (find_package)
+[2.031s] 
+[2.031s] [0m
+[2.226s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[2.226s]   Package 'forward_simulator' exports the include directory
+[2.226s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.226s]   which doesn't exist
+[2.226s] Call Stack (most recent call first):
+[2.226s]   /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake:41 (include)
+[2.226s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.226s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[2.226s]   CMakeLists.txt:26 (find_package)
+[2.226s] 
+[2.226s] [0m
+[2.236s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[2.236s]   Package 'motion_predictor' exports the include directory
+[2.236s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.236s]   which doesn't exist
+[2.236s] Call Stack (most recent call first):
+[2.236s]   /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+[2.236s]   CMakeLists.txt:26 (find_package)
+[2.236s] 
+[2.237s] [0m
+[2.239s] -- Found vehicle_msgs: 0.0.1 (/home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake)
+[2.278s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[2.278s]   Package 'vehicle_msgs' exports the include directory
+[2.278s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.278s]   which doesn't exist
+[2.278s] Call Stack (most recent call first):
+[2.278s]   /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
+[2.278s]   CMakeLists.txt:27 (find_package)
+[2.278s] 
+[2.278s] [0m
+[2.714s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.715s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.715s]   the include directory
+[2.716s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.716s]   which doesn't exist
+[2.716s] Call Stack (most recent call first):
+[2.717s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.717s] 
+[2.717s] [0m
+[2.717s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.718s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.718s]   the include directory
+[2.718s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.718s]   which doesn't exist
+[2.718s] Call Stack (most recent call first):
+[2.718s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.718s] 
+[2.718s] [0m
+[2.719s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.719s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.719s]   the include directory
+[2.719s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.719s]   which doesn't exist
+[2.719s] Call Stack (most recent call first):
+[2.719s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.719s] 
+[2.719s] [0m
+[2.719s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.719s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.719s]   the include directory
+[2.719s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.719s]   which doesn't exist
+[2.719s] Call Stack (most recent call first):
+[2.719s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.719s] 
+[2.719s] [0m
+[2.719s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.719s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.719s]   the include directory
+[2.719s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.719s]   which doesn't exist
+[2.719s] Call Stack (most recent call first):
+[2.720s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.720s] 
+[2.720s] [0m
+[2.720s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.720s]   ament_export_include_directories() package 'semantic_map_manager' exports
+[2.720s]   the include directory
+[2.720s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.720s]   which doesn't exist
+[2.720s] Call Stack (most recent call first):
+[2.720s]   CMakeLists.txt:104 (ament_export_include_directories)
+[2.720s] 
+[2.720s] [0m
+[2.795s] -- Configuring done
+[2.863s] -- Generating done
+[2.870s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/semantic_map_manager
+[2.884s] Invoked command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/semantic_map_manager
+[2.884s] Invoking command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/semantic_map_manager -- -j32 -l32
+[2.909s] /usr/bin/cmake -S/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager -B/home/bigdavid/EPSILON_ws/build/semantic_map_manager --check-build-system CMakeFiles/Makefile.cmake 0
+[2.925s] /usr/bin/cmake -E cmake_progress_start /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles /home/bigdavid/EPSILON_ws/build/semantic_map_manager//CMakeFiles/progress.marks
+[2.941s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[2.943s] gmake[1]: 进入目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[2.943s] /usr/bin/gmake  -f CMakeFiles/hkust_pl_smm.dir/build.make CMakeFiles/hkust_pl_smm.dir/depend
+[2.946s] gmake[2]: 进入目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[2.946s] cd /home/bigdavid/EPSILON_ws/build/semantic_map_manager && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/DependInfo.cmake --color=
+[2.962s] gmake[2]: 离开目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[2.962s] /usr/bin/gmake  -f CMakeFiles/hkust_pl_smm.dir/build.make CMakeFiles/hkust_pl_smm.dir/build
+[2.967s] gmake[2]: 进入目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[2.978s] [ 12%] [32mBuilding CXX object CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o[0m
+[2.979s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o -MF CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o.d -o CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc
+[2.981s] [ 25%] [32mBuilding CXX object CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o[0m
+[2.982s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o -MF CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o.d -o CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/config_loader.cc
+[2.982s] [ 37%] [32mBuilding CXX object CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o[0m
+[2.984s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o -MF CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o.d -o CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/traffic_signal_manager.cc
+[2.984s] [ 50%] [32mBuilding CXX object CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o[0m
+[2.985s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o -MF CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o.d -o CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/data_renderer.cc
+[8.319s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/data_renderer.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::DataRenderer::InjectObservationNoise()[m[K’:
+[8.319s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/data_renderer.cc:78:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.319s]    78 |     for (int i = 0; i < 3 && [01;35m[Ki < surrounding_ids.size()[m[K; i++) {
+[8.319s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::GetLocalLaneUsingLaneIds(const common::State&, const std::vector<int>&, decimal_t, decimal_t, const bool&, common::Lane*)[m[K’:
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:1167:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[10.377s]  1167 |     for (int i = 1; [01;35m[Ki < whole_lane_net_.lane_set.at(id).lane_points.size()[m[K;
+[10.377s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::GetLeadingVehicleOnLane(const common::Lane&, const common::State&, const common::VehicleSet&, const decimal_t&, common::Vehicle*, decimal_t*) const[m[K’:
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:1348:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klane_width[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.377s]  1348 |   const decimal_t [01;35m[Klane_width[m[K = 3.5;
+[10.377s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:1357:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfind_occupied[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.377s]  1357 |   bool [01;35m[Kfind_occupied[m[K = false;
+[10.377s]       |        [01;35m[K^~~~~~~~~~~~~[m[K
+[10.377s] In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/semantic_map_manager/semantic_map_manager.h:15[m[K,
+[10.377s]                  from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/semantic_map_manager.cc:1[m[K:
+[10.377s] [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:[m[K In member function ‘[01m[KErrorType semantic_map_manager::SemanticMapManager::UpdateSemanticVehicles()[m[K’:
+[10.378s] [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:207:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmax_beh[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[10.378s]   207 |     [01;35m[K*beh = max_beh[m[K;
+[10.378s]       |     [01;35m[K~~~~~^~~~~~~~~[m[K
+[10.378s] [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:200:21:[m[K [01;36m[Knote: [m[K‘[01m[Kmax_beh[m[K’ was declared here
+[10.378s]   200 |     LateralBehavior [01;36m[Kmax_beh[m[K;
+[10.378s]       |                     [01;36m[K^~~~~~~[m[K
+[10.392s] [ 62%] [32m[1mLinking CXX static library libhkust_pl_smm.a[0m
+[10.393s] /usr/bin/cmake -P CMakeFiles/hkust_pl_smm.dir/cmake_clean_target.cmake
+[10.406s] /usr/bin/cmake -E cmake_link_script CMakeFiles/hkust_pl_smm.dir/link.txt --verbose=1
+[10.421s] /usr/bin/ar qc libhkust_pl_smm.a CMakeFiles/hkust_pl_smm.dir/src/semantic_map_manager.cc.o CMakeFiles/hkust_pl_smm.dir/src/data_renderer.cc.o CMakeFiles/hkust_pl_smm.dir/src/config_loader.cc.o CMakeFiles/hkust_pl_smm.dir/src/traffic_signal_manager.cc.o
+[10.433s] /usr/bin/ranlib libhkust_pl_smm.a
+[10.447s] gmake[2]: 离开目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[10.465s] [ 62%] Built target hkust_pl_smm
+[10.466s] /usr/bin/gmake  -f CMakeFiles/hkust_smm_ros.dir/build.make CMakeFiles/hkust_smm_ros.dir/depend
+[10.471s] gmake[2]: 进入目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[10.471s] cd /home/bigdavid/EPSILON_ws/build/semantic_map_manager && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/DependInfo.cmake --color=
+[10.486s] gmake[2]: 离开目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[10.486s] /usr/bin/gmake  -f CMakeFiles/hkust_smm_ros.dir/build.make CMakeFiles/hkust_smm_ros.dir/build
+[10.491s] gmake[2]: 进入目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[10.509s] [ 75%] [32mBuilding CXX object CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o[0m
+[10.511s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/tf2_geometry_msgs -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o -MF CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o.d -o CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/visualizer.cc
+[10.512s] [ 87%] [32mBuilding CXX object CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o[0m
+[10.513s] /usr/lib/ccache/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/thirdparty -I/home/bigdavid/EPSILON_ws/install/vehicle_msgs/include -I/home/bigdavid/EPSILON_ws/install/common/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include -I/opt/ros/humble/include/rclcpp_components -I/home/bigdavid/EPSILON_ws/install/vehicle_model/include -I/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/thirdparty -I/home/bigdavid/EPSILON_ws/install/forward_simulator/include -I/home/bigdavid/EPSILON_ws/install/motion_predictor/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/tf2_geometry_msgs -isystem /usr/local/include/eigen3 -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -O3 -DNDEBUG -O3 -Wall -std=gnu++17 -MD -MT CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o -MF CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o.d -o CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/ros_adapter.cc
+[33.037s] In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/src/ros_adapter.cc:1[m[K:
+[33.037s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:[m[K In constructor ‘[01m[Ksemantic_map_manager::RosAdapter::RosAdapter(std::shared_ptr<rclcpp::Node>, semantic_map_manager::SemanticMapManager*)[m[K’:
+[33.037s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:59:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksemantic_map_manager::RosAdapter::p_smm_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[33.037s]    59 |   SemanticMapManager* [01;35m[Kp_smm_[m[K;
+[33.037s]       |                       [01;35m[K^~~~~~[m[K
+[33.037s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:58:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksemantic_map_manager::DataRenderer* semantic_map_manager::RosAdapter::p_data_renderer_[m[K’ [[01;35m[K-Wreorder[m[K]
+[33.037s]    58 |   DataRenderer* [01;35m[Kp_data_renderer_[m[K;
+[33.037s]       |                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[33.038s] [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/semantic_map_manager/ros_adapter.h:26:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[33.038s]    26 |   [01;35m[KRosAdapter[m[K(std::shared_ptr<rclcpp::Node> node, SemanticMapManager* ptr_smm)
+[33.038s]       |   [01;35m[K^~~~~~~~~~[m[K
+[33.064s] [100%] [32m[1mLinking CXX static library libhkust_smm_ros.a[0m
+[33.065s] /usr/bin/cmake -P CMakeFiles/hkust_smm_ros.dir/cmake_clean_target.cmake
+[33.080s] /usr/bin/cmake -E cmake_link_script CMakeFiles/hkust_smm_ros.dir/link.txt --verbose=1
+[33.091s] /usr/bin/ar qc libhkust_smm_ros.a CMakeFiles/hkust_smm_ros.dir/src/ros_adapter.cc.o CMakeFiles/hkust_smm_ros.dir/src/visualizer.cc.o
+[33.120s] /usr/bin/ranlib libhkust_smm_ros.a
+[33.146s] gmake[2]: 离开目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[33.159s] [100%] Built target hkust_smm_ros
+[33.160s] gmake[1]: 离开目录“/home/bigdavid/EPSILON_ws/build/semantic_map_manager”
+[33.161s] /usr/bin/cmake -E cmake_progress_start /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles 0
+[33.177s] Invoked command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/semantic_map_manager -- -j32 -l32
+[33.179s] Invoking command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/semantic_map_manager
+[33.188s] -- Install configuration: "Release"
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/library_path.sh
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/library_path.dsv
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/data_renderer.h
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/ros_adapter.h
+[33.188s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/traffic_signal_manager.h
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/visualizer.h
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/config_loader.h
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/semantic_map_manager.h
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/include/semantic_map_manager/basics.h
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib/libhkust_pl_smm.a
+[33.189s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/lib/libhkust_smm_ros.a
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/ament_index/resource_index/package_run_dependencies/semantic_map_manager
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/ament_index/resource_index/parent_prefix_path/semantic_map_manager
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/ament_prefix_path.sh
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/ament_prefix_path.dsv
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/path.sh
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/environment/path.dsv
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/local_setup.bash
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/local_setup.sh
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/local_setup.zsh
+[33.193s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/local_setup.dsv
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/package.dsv
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/ament_index/resource_index/packages/semantic_map_manager
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig-version.cmake
+[33.194s] -- Installing: /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/package.xml
+[33.196s] Invoked command in '/home/bigdavid/EPSILON_ws/build/semantic_map_manager' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor:/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_msgs:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/motion_predictor/lib:/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/semantic_map_manager

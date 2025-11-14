@@ -1,0 +1,722 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/bigdavid/.local/lib/python3.10/site-packages/numpy/core/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bigdavid/EPSILON_ws/build/vehicle_msgs
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_copy_vehicle_msgs
+running egg_info
+creating vehicle_msgs.egg-info
+writing vehicle_msgs.egg-info/PKG-INFO
+writing dependency_links to vehicle_msgs.egg-info/dependency_links.txt
+writing top-level names to vehicle_msgs.egg-info/top_level.txt
+writing manifest file 'vehicle_msgs.egg-info/SOURCES.txt'
+reading manifest file 'vehicle_msgs.egg-info/SOURCES.txt'
+writing manifest file 'vehicle_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_vehicle_msgs_egg
+[  0%] Built target vehicle_msgs__cpp
+[  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  2%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/control_signal__functions.c.o[0m
+[  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  4%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/occupancy_grid_u_int8__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/circle__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/circle_obstacle__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/vehicle_set__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/occupancy_grid_float__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/arena_info_dynamic__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/arena_info_static__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/polygon_obstacle__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/lane_net__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/state__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/lane__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/vehicle_param__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/vehicle__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/free_state__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/obstacle_set__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/arena_info__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libvehicle_msgs__rosidl_generator_c.so[0m
+[ 14%] Built target vehicle_msgs__rosidl_generator_c
+[ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/circle_obstacle__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/free_state__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/occupancy_grid_float__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/arena_info_static__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/arena_info__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/circle__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/state__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/polygon_obstacle__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/control_signal__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/lane__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/arena_info_dynamic__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/lane_net__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/vehicle_param__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/vehicle_set__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/occupancy_grid_u_int8__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/vehicle__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/obstacle_set__type_support.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_cpp.so[0m
+[ 28%] Built target vehicle_msgs__rosidl_typesupport_cpp
+[ 29%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/vehicle_set__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/circle__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/arena_info__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/state__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/control_signal__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/lane__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/lane_net__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/vehicle__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/vehicle_param__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/obstacle_set__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/free_state__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/circle_obstacle__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/polygon_obstacle__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/arena_info_static__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/lane_net__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/vehicle_param__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/occupancy_grid_u_int8__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/control_signal__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/free_state__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/vehicle_set__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/arena_info__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/vehicle_set__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/arena_info_static__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/occupancy_grid_u_int8__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/obstacle_set__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/arena_info_dynamic__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/circle_obstacle__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/polygon_obstacle__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/control_signal__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/circle__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/lane__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/occupancy_grid_float__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/state__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/vehicle__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/lane__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/vehicle__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/lane_net__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/circle_obstacle__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/vehicle_param__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/polygon_obstacle__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/circle__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/obstacle_set__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/occupancy_grid_float__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/arena_info__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/arena_info_dynamic__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/arena_info_static__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/free_state__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_c.so[0m
+[ 63%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/state__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/lane_net__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/vehicle_param__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/vehicle_set__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/vehicle__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/circle__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/circle_obstacle__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/control_signal__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/lane__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/polygon_obstacle__type_support.c.o[0m
+[ 69%] Built target vehicle_msgs__rosidl_typesupport_c
+[ 69%] Built target vehicle_msgs__rosidl_typesupport_introspection_cpp
+[ 69%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/obstacle_set__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/free_state__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/arena_info__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/arena_info_static__type_support.c.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/control_signal__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/lane__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/vehicle__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/lane_net__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/polygon_obstacle__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/obstacle_set__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/arena_info_dynamic__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/circle__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/arena_info_static__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/arena_info__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/vehicle_param__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/vehicle_set__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/circle_obstacle__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/occupancy_grid_float__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/free_state__type_support_c.cpp.o[0m
+[ 84%] [32m[1mLinking C shared library libvehicle_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 84%] Built target vehicle_msgs__rosidl_typesupport_introspection_c
+[ 84%] [32m[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 84%] [32m[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target vehicle_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target vehicle_msgs
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target vehicle_msgs__py
+[ 85%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_state_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_circle_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_circle_obstacle_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_polygon_obstacle_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_obstacle_set_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_free_state_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_arena_info_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_occupancy_grid_u_int8_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_arena_info_static_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_control_signal_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_vehicle_param_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_vehicle_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_vehicle_set_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_lane_net_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_occupancy_grid_float_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_lane_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_arena_info_dynamic_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_msgs/libvehicle_msgs__rosidl_generator_py.so[0m
+[ 96%] Built target vehicle_msgs__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target vehicle_msgs__rosidl_typesupport_c__pyext
+[100%] Built target vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/state.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/occupancy_grid_float.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__type_support.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__struct.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__functions.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__functions.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle_set.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/control_signal.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/free_state.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/obstacle_set.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/lane.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info_static.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/circle.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle_param.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info_dynamic.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/polygon_obstacle.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/occupancy_grid_u_int8.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/circle_obstacle.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/lane_net.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/library_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/library_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/lane.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/obstacle_set.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle_param.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info_dynamic.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/control_signal.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/circle_obstacle.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info_static.hpp
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__type_support.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__struct.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__traits.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__builder.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/free_state.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/arena_info.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/circle.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/lane_net.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/state.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/vehicle_set.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/occupancy_grid_float.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/polygon_obstacle.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/occupancy_grid_u_int8.hpp
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__type_support.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/obstacle_set__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle_obstacle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/control_signal__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/polygon_obstacle__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane_net__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_dynamic__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/lane__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_float__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/state__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/occupancy_grid_u_int8__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/circle__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_set__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/arena_info_static__type_support.cpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/vehicle_param__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/free_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/pythonpath.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/pythonpath.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs-0.0.1-py3.10.egg-info
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/libvehicle_msgs__rosidl_generator_py.so
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/__init__.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_dynamic_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_polygon_obstacle.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane_net.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_param.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_free_state.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_float_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_state.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle_obstacle_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_u_int8_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_set_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_obstacle_set.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/__init__.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_free_state_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_control_signal_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_dynamic.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_state_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_u_int8.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_control_signal.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_polygon_obstacle_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle_obstacle.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane_net_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_obstacle_set_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_static.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_static_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_float.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_param_s.c
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_set.py
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_s.c
+Listing '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/__init__.py'...
+Listing '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/__init__.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_dynamic.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_arena_info_static.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_circle_obstacle.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_control_signal.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_free_state.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_lane_net.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_obstacle_set.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_float.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_occupancy_grid_u_int8.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_polygon_obstacle.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_state.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_param.py'...
+Compiling '/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/msg/_vehicle_set.py'...
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/local/lib/python3.10/dist-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/State.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ControlSignal.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Lane.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/LaneNet.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleParam.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Vehicle.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleSet.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridFloat.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridUInt8.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Circle.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/CircleObstacle.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/PolygonObstacle.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ObstacleSet.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/FreeState.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfo.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoDynamic.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoStatic.idl
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/State.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ControlSignal.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Lane.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/LaneNet.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleParam.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Vehicle.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleSet.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridFloat.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridUInt8.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Circle.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/CircleObstacle.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/PolygonObstacle.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ObstacleSet.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/FreeState.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfo.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoDynamic.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoStatic.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/FreeState.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleSet.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoStatic.msg
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/MotionControl.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Lane.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/VehicleParam.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ObstacleSet.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/PolygonObstacle.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/LaneNet.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/State.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Vehicle.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridUInt8.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/Circle.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ControlSignal.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/OccupancyGridFloat.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfo.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/CircleObstacle.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/msg/ArenaInfoDynamic.msg
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/decoder.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/include/vehicle_msgs/encoder.h
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/path.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/environment/path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.bash
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.sh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.zsh
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/package.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/ament_index/resource_index/packages/vehicle_msgs
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig-version.cmake
+-- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/package.xml

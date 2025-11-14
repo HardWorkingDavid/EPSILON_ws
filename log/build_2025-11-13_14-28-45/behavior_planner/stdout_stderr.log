@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target behavior_planner_lib[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/behavior_planner_lib.dir/src/behavior_planner/map_adapter.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/behavior_planner_lib.dir/src/behavior_planner/behavior_planner.cc.o[0m
+[ 60%] [32m[1mLinking CXX static library libbehavior_planner_lib.a[0m
+[ 60%] Built target behavior_planner_lib
+[35m[1mConsolidate compiler generated dependencies of target behavior_planner_ros[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/behavior_planner_ros.dir/src/behavior_planner/behavior_server_ros.cc.o[0m
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:[m[K In constructor ‘[01m[Kplanning::BehaviorPlannerServer::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node>, int)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:92:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanning::BehaviorPlannerServer::work_rate_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   92 |   double [01;35m[Kwork_rate_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:91:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint planning::BehaviorPlannerServer::ego_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   91 |   int [01;35m[Kego_id_[m[K;
+      |       [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    5 | [01;35m[KBehaviorPlannerServer[m[K::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node> node, int ego_id)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:[m[K In constructor ‘[01m[Kplanning::BehaviorPlannerServer::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node>, double, int)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:92:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanning::BehaviorPlannerServer::work_rate_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   92 |   double [01;35m[Kwork_rate_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:91:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint planning::BehaviorPlannerServer::ego_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   91 |   int [01;35m[Kego_id_[m[K;
+      |       [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   11 | [01;35m[KBehaviorPlannerServer[m[K::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node> node, double work_rate, int ego_id)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX static library libbehavior_planner_ros.a[0m
+[100%] Built target behavior_planner_ros
+-- Install configuration: "Release"
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/library_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/library_path.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/lib/libbehavior_planner_lib.a
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/lib/libbehavior_planner_ros.a
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/map_interface.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/behavior_planner.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/behavior_server_ros.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/map_adapter.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/include/behavior_planner/visualizer.h
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/package_run_dependencies/behavior_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/parent_prefix_path/behavior_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/environment/path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.bash
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.zsh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/package.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/ament_index/resource_index/packages/behavior_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/behavior_plannerConfig.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/cmake/behavior_plannerConfig-version.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/behavior_planner/share/behavior_planner/package.xml

@@ -1,0 +1,140 @@
+[0.028s] Invoking command in '/home/bigdavid/EPSILON_ws/build/motion_predictor': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/motion_predictor
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.403s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.418s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.534s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.534s] -- Detecting CXX compile features
+[0.535s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.857s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.910s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.916s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.012s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.015s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.040s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.050s] -- Looking for pthread.h
+[1.152s] -- Looking for pthread.h - found
+[1.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.248s] -- Found Threads: TRUE  
+[1.307s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.365s] -- Found common: 0.0.0 (/home/bigdavid/EPSILON_ws/install/common/share/common/cmake)
+[1.545s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.546s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.546s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.550s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.550s]   Package 'common' exports the include directory
+[1.550s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[1.550s]   which doesn't exist
+[1.550s] Call Stack (most recent call first):
+[1.550s]   /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+[1.550s]   CMakeLists.txt:19 (find_package)
+[1.550s] 
+[1.550s] [0m
+[1.553s] -- Found vehicle_model: 0.0.0 (/home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake)
+[1.575s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.575s]   Package 'vehicle_model' exports the include directory
+[1.576s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[1.576s]   which doesn't exist
+[1.576s] Call Stack (most recent call first):
+[1.576s]   /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+[1.577s]   CMakeLists.txt:20 (find_package)
+[1.577s] 
+[1.577s] [0m
+[1.578s] -- Found forward_simulator: 0.0.0 (/home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake)
+[1.772s] [33mCMake Warning at /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+[1.772s]   Package 'forward_simulator' exports the include directory
+[1.773s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[1.773s]   which doesn't exist
+[1.773s] Call Stack (most recent call first):
+[1.773s]   /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake:41 (include)
+[1.773s]   CMakeLists.txt:21 (find_package)
+[1.774s] 
+[1.774s] [0m
+[2.293s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.293s]   ament_export_include_directories() package 'motion_predictor' exports the
+[2.293s]   include directory
+[2.293s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.293s]   which doesn't exist
+[2.293s] Call Stack (most recent call first):
+[2.293s]   CMakeLists.txt:48 (ament_export_include_directories)
+[2.293s] 
+[2.293s] [0m
+[2.294s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.294s]   ament_export_include_directories() package 'motion_predictor' exports the
+[2.294s]   include directory
+[2.294s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.294s]   which doesn't exist
+[2.294s] Call Stack (most recent call first):
+[2.294s]   CMakeLists.txt:48 (ament_export_include_directories)
+[2.294s] 
+[2.294s] [0m
+[2.294s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.294s]   ament_export_include_directories() package 'motion_predictor' exports the
+[2.294s]   include directory
+[2.294s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.295s]   which doesn't exist
+[2.295s] Call Stack (most recent call first):
+[2.295s]   CMakeLists.txt:48 (ament_export_include_directories)
+[2.295s] 
+[2.295s] [0m
+[2.295s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.295s]   ament_export_include_directories() package 'motion_predictor' exports the
+[2.295s]   include directory
+[2.295s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.295s]   which doesn't exist
+[2.295s] Call Stack (most recent call first):
+[2.295s]   CMakeLists.txt:48 (ament_export_include_directories)
+[2.295s] 
+[2.295s] [0m
+[2.295s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[2.295s]   ament_export_include_directories() package 'motion_predictor' exports the
+[2.295s]   include directory
+[2.295s]   '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+[2.295s]   which doesn't exist
+[2.295s] Call Stack (most recent call first):
+[2.295s]   CMakeLists.txt:48 (ament_export_include_directories)
+[2.296s] 
+[2.296s] [0m
+[2.374s] -- Configuring done
+[2.378s] -- Generating done
+[2.380s] -- Build files have been written to: /home/bigdavid/EPSILON_ws/build/motion_predictor
+[2.392s] Invoked command in '/home/bigdavid/EPSILON_ws/build/motion_predictor' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/motion_predictor
+[2.393s] Invoking command in '/home/bigdavid/EPSILON_ws/build/motion_predictor': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/motion_predictor -- -j32 -l32
+[2.455s] Invoked command in '/home/bigdavid/EPSILON_ws/build/motion_predictor' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/motion_predictor -- -j32 -l32
+[2.457s] Invoking command in '/home/bigdavid/EPSILON_ws/build/motion_predictor': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/motion_predictor
+[2.470s] -- Install configuration: "Release"
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/library_path.sh
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/library_path.dsv
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/include
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/include/motion_predictor
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/include/motion_predictor/onlane_fs_predictor.h
+[2.470s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/ament_index/resource_index/package_run_dependencies/motion_predictor
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/ament_index/resource_index/parent_prefix_path/motion_predictor
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/ament_prefix_path.sh
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/ament_prefix_path.dsv
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/path.sh
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/environment/path.dsv
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/local_setup.bash
+[2.471s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/local_setup.sh
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/local_setup.zsh
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/local_setup.dsv
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/package.dsv
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/ament_index/resource_index/packages/motion_predictor
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_libraries-extras.cmake
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.472s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.473s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake
+[2.473s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig-version.cmake
+[2.473s] -- Installing: /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/package.xml
+[2.475s] Invoked command in '/home/bigdavid/EPSILON_ws/build/motion_predictor' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator:/home/bigdavid/EPSILON_ws/install/vehicle_model:/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/forward_simulator/lib:/home/bigdavid/EPSILON_ws/install/vehicle_model/lib:/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/motion_predictor

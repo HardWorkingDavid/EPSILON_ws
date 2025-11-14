@@ -524,7 +524,7 @@ route_planner_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/route_planner
 route_planner_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-route_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/core/route_planner
+route_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/route_planner
 
 //The directory containing a CMake configuration file for semantic_map_manager.
 semantic_map_manager_DIR:PATH=/home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake
@@ -665,7 +665,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/core/route_planner
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/route_planner
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

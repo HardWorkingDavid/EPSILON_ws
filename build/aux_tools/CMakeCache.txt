@@ -311,7 +311,7 @@ aux_tools_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/aux_tools
 aux_tools_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-aux_tools_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/aux_tools
+aux_tools_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/aux_tools
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
@@ -579,7 +579,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/aux_tools
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/aux_tools
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

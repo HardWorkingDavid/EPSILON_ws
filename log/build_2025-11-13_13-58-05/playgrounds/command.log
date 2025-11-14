@@ -1,0 +1,6 @@
+Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/playgrounds
+Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds -DCMAKE_INSTALL_PREFIX=/home/bigdavid/EPSILON_ws/install/playgrounds
+Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/playgrounds -- -j32 -l32
+Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/playgrounds -- -j32 -l32
+Invoking command in '/home/bigdavid/EPSILON_ws/build/playgrounds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/playgrounds
+Invoked command in '/home/bigdavid/EPSILON_ws/build/playgrounds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/playgrounds

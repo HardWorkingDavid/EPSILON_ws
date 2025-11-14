@@ -1,4 +1,4 @@
-# Install script for directory: /home/bigdavid/EPSILON_ws/src/core/playgrounds
+# Install script for directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,23 +44,23 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds" TYPE DIRECTORY FILES
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/highway_lite"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/highway_v1.0"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/ring_small_v1.0"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/ring_tiny_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/highway_lite"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/highway_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/ring_small_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/ring_tiny_v1.0"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds/data" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/playgrounds/data/" FILES_MATCHING REGEX "/[^/]*\\.json$" REGEX "/[^/]*\\.xml$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds/data" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/data/" FILES_MATCHING REGEX "/[^/]*\\.json$" REGEX "/[^/]*\\.xml$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds" TYPE DIRECTORY FILES
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/highway_lite"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/highway_v1.0"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/ring_small_v1.0"
-    "/home/bigdavid/EPSILON_ws/src/core/playgrounds/ring_tiny_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/highway_lite"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/highway_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/ring_small_v1.0"
+    "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/ring_tiny_v1.0"
     )
 endif()
 
@@ -120,7 +120,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/core/playgrounds/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/playgrounds" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/playgrounds/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

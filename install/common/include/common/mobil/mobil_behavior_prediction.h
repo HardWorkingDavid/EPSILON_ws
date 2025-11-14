@@ -25,8 +25,6 @@ class MobilBehaviorPrediction {
                                     const decimal_t mobil_gain_left,
                                     const bool is_lcr_safe,
                                     const decimal_t mobil_gain_right,
-                                    const bool is_nudge_left_safe, const decimal_t nudge_gain_left,  // 新增Nudge左参数
-                                    const bool is_nudge_right_safe, const decimal_t nudge_gain_right,  // 新增Nudge右参数
                                     ProbDistOfLatBehaviors *res);
 };
 

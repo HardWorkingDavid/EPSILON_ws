@@ -1,4 +1,4 @@
-# Install script for directory: /home/bigdavid/EPSILON_ws/src/core/vehicle_model
+# Install script for directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/vehicle_model/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -126,7 +126,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vehicle_model" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/core/vehicle_model/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vehicle_model" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

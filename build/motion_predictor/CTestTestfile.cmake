@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/bigdavid/EPSILON_ws/src/core/motion_predictor
+# Source directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor
 # Build directory: /home/bigdavid/EPSILON_ws/build/motion_predictor
 # 
 # This file includes the relevant testing commands required for 

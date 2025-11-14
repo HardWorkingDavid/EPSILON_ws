@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target onlane_ai_agent[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/onlane_ai_agent.dir/src/onlane_ai_agent.cc.o[0m
+[100%] [32m[1mLinking CXX executable onlane_ai_agent[0m
+[100%] Built target onlane_ai_agent
+-- Install configuration: "Release"
+-- Installing: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/lib/ai_agent_planner/onlane_ai_agent
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/ai_agent_planner/lib/ai_agent_planner/onlane_ai_agent" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/launch/onlane_ego_agent.launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/launch/onlane_ai_agent_launch.py
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/launch/onlane_ego_agent_launch.py
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/launch/onlane_ai_agent.launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ament_index/resource_index/package_run_dependencies/ai_agent_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ament_index/resource_index/parent_prefix_path/ai_agent_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/environment/path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/environment/path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/local_setup.bash
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/local_setup.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/local_setup.zsh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/package.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ament_index/resource_index/packages/ai_agent_planner
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/cmake/ai_agent_plannerConfig.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/cmake/ai_agent_plannerConfig-version.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/ai_agent_planner/share/ai_agent_planner/package.xml

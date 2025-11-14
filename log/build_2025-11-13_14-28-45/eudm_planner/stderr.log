@@ -1,0 +1,22 @@
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_manager.cc:[m[K In member function ‘[01m[Kbool planning::EudmManager::IsTriggerAppropriate(const LateralBehavior&)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_manager.cc:54:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_actions[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   54 |     int [01;35m[Knum_actions[m[K = action_seq.size();
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:[m[K In member function ‘[01m[KErrorType planning::EudmPlanner::ClassifyActionSeq(const std::vector<planning::DcpTree::DcpAction>&, decimal_t*, common::LateralBehavior*, bool*) const[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:146:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koperation_at[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  146 |   decimal_t [01;35m[Koperation_at[m[K = 0.0;
+      |             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:[m[K In member function ‘[01m[KErrorType planning::EudmPlanner::CostFunction(const DcpAction&, const planning::EudmPlanner::ForwardSimEgoAgent&, const planning::EudmPlanner::ForwardSimAgentSet&, vec_E<common::Vehicle>&, const std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >&, bool, planning::EudmPlanner::CostStructure*, bool*, std::set<int>*)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:1087:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_lon_behavior_this_layer[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1087 |   auto [01;35m[Kego_lon_behavior_this_layer[m[K = ego_fsagent.lon_behavior;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:1088:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_lat_behavior_this_layer[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1088 |   auto [01;35m[Kego_lat_behavior_this_layer[m[K = ego_fsagent.lat_behavior;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:[m[K In member function ‘[01m[KErrorType planning::EudmPlanner::UpdateSimSetupForScenario(const std::vector<planning::DcpTree::DcpAction>&, planning::EudmPlanner::ForwardSimEgoAgent*) const[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:363:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Koperation_at_seconds[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  363 |   [01;35m[Kego_fsagent->operation_at_seconds = operation_at_seconds[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner/src/eudm_planner/eudm_planner.cc:365:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kseq_lat_behavior[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  365 |   [01;35m[Kego_fsagent->seq_lat_behavior = seq_lat_behavior[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K

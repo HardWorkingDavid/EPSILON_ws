@@ -7,88 +7,64 @@
 
 namespace planning {
 
-// 行为规划器地图适配器类，继承自BehaviorPlannerMapItf接口
 class BehaviorPlannerMapAdapter : public BehaviorPlannerMapItf {
  public:
-  // 将语义地图管理器定义为IntegratedMap
   using IntegratedMap = semantic_map_manager::SemanticMapManager;
-  // 检查地图是否有效
   bool IsValid() override;
-  // 获取自车的状态
   ErrorType GetEgoState(State *state) override;
-  // 获取自车ID
   ErrorType GetEgoId(int *id) override;
-  // 获取自车对象
   ErrorType GetEgoVehicle(common::Vehicle *vehicle) override;
-  // 通过导航路径获取自车当前所在的车道ID
   ErrorType GetEgoLaneIdByPosition(const std::vector<int> &navi_path,
                                    int *lane_id) override;
-  // 通过自车状态和导航路径获取最近的车道ID
   ErrorType GetNearestLaneIdUsingState(const Vec3f &state,
                                        const std::vector<int> &navi_path,
                                        int *id, decimal_t *distance,
                                        decimal_t *arc_len) override;
-  // 检查车道是否在拓扑结构上可达
   ErrorType IsTopologicallyReachable(const int lane_id,
                                      const std::vector<int> &path,
                                      int *num_lane_changes, bool *res) override;
-  // 获取右侧邻近车道ID
   ErrorType GetRightLaneId(const int lane_id, int *r_lane_id) override;
-  // 获取左侧邻近车道ID
   ErrorType GetLeftLaneId(const int lane_id, int *l_lane_id) override;
-  // 获取子车道ID集合
   ErrorType GetChildLaneIds(const int lane_id,
                             std::vector<int> *child_ids) override;
-  // 获取父车道ID集合
   ErrorType GetFatherLaneIds(const int lane_id,
                              std::vector<int> *father_ids) override;
-  // 通过车道ID获取具体的车道对象
   ErrorType GetLaneByLaneId(const int lane_id, Lane *lane) override;
-  // 根据自车状态和车道ID获取车道的局部采样点
   ErrorType GetLocalLaneSamplesByState(const State &state, const int lane_id,
                                        const std::vector<int> &navi_path,
                                        const decimal_t max_reflane_dist,
                                        const decimal_t max_backward_dist,
                                        vec_Vecf<2> *samples) override;
-  // 根据行为类型获取参考车道
   ErrorType GetRefLaneForStateByBehavior(
       const State &state, const std::vector<int> &navi_path,
       const LateralBehavior &behavior, const decimal_t &max_forward_len,
       const decimal_t &max_back_len, const bool is_high_quality, Lane *lane) override;
-  // 获取关键车辆集合
   ErrorType GetKeyVehicles(common::VehicleSet *key_vehicle_set) override;
-  // 获取关键语义车辆集合
   ErrorType GetKeySemanticVehicles(
       common::SemanticVehicleSet *key_vehicle_set) override;
-  // 获取整个车道网络
   ErrorType GetWholeLaneNet(common::LaneNet *lane_net) override;
-  // 通过状态检查两个车辆是否发生碰撞
   ErrorType CheckCollisionUsingState(const common::VehicleParam &param_a,
                                      const common::State &state_a,
                                      const common::VehicleParam &param_b,
                                      const common::State &state_b,
                                      bool *res) override;
-  // 检查车辆与其他车辆或障碍物是否发生碰撞
   ErrorType CheckIfCollision(const common::VehicleParam &vehicle_param,
                              const State &state, bool *res) override;
-  // 获取车道上领先的车辆
   ErrorType GetLeadingVehicleOnLane(
       const common::Lane &ref_lane, const common::State &ref_state,
       const common::VehicleSet &vehicle_set, const decimal_t &lat_range,
       common::Vehicle *leading_vehicle,
       decimal_t *distance_residual_ratio) override;
-  // 获取车道的速度限制
   ErrorType GetSpeedLimit(const State &state, const Lane &lane,
                           decimal_t *speed_limit) override;
-  // 获取车辆的预测行为
   ErrorType GetPredictedBehavior(
       const int vehicle_id, common::LateralBehavior *lat_behavior) override;
-  // 设置语义地图管理器
+
   void set_map(std::shared_ptr<IntegratedMap> map_ptr);
 
  private:
   std::shared_ptr<IntegratedMap> map_;
-  bool is_valid_ = false; // 表示地图是否有效
+  bool is_valid_ = false;
 };
 
 }  // namespace planning

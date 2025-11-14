@@ -1,4 +1,4 @@
-# Install script for directory: /home/bigdavid/EPSILON_ws/src/core/common
+# Install script for directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/common" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/common/include/common/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/common" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common/materials" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/common/materials/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common/materials" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/materials/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -153,7 +153,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/core/common/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

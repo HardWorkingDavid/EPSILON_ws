@@ -15,11 +15,8 @@ def generate_launch_description():
         'arena_info_dynamic_topic', default_value='/arena_info_dynamic'
     )
     playground = DeclareLaunchArgument(
-        'playground', default_value='highway_v1.0'
+        'playground', default_value='ring_small_v1.0'
     )
-# highway_v1.0
-# highway_lite
-# ring_tiny_v1.0
 
     # Include joy_ctrl launch file
     joy_ctrl_launch = IncludeLaunchDescription(

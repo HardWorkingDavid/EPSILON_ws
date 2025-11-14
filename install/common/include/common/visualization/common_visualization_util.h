@@ -1299,15 +1299,6 @@ class VisualizationUtil {
                                  ColorARGB(1.0, 0.1, 0.8, 0.1), &direction_mk);
           angle = kPi / 4.0;
         }
-        // 可视化Nudge横向行为
-        if (behavior.lat_behavior == common::LateralBehavior::kNudgeLeft ||
-          behavior.lat_behavior == common::LateralBehavior::kNudgeRight) {
-          // Nudge行为用蓝色箭头，幅度较小
-          FillScaleColorInMarker(Vec3f(0.2, 0.0, 0.0),  // 线宽较窄
-                                 ColorARGB(1.0, 0.0, 0.0, 1.0),  // 蓝色
-                                 &direction_mk);
-          angle = kPi / 8.0;  // 箭头角度较小（表示微移）
-        }
 
         const decimal_t sample_step = 5.0;
         const decimal_t arrow_width = 0.75;

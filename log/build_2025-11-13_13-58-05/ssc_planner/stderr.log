@@ -1,0 +1,202 @@
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'common' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/common/share/common/cmake/commonConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_model' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'forward_simulator' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/forward_simulator/share/forward_simulator/cmake/forward_simulatorConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'motion_predictor' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/motion_predictor/share/motion_predictor/cmake/motion_predictorConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'vehicle_msgs' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+[0m
+[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'semantic_map_manager' exports the include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/bigdavid/EPSILON_ws/install/semantic_map_manager/share/semantic_map_manager/cmake/semantic_map_managerConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'ssc_planner' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:85 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'ssc_planner' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:85 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'ssc_planner' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:85 (ament_export_include_directories)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'ssc_planner' exports the
+  include directory
+  '/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/OOQP/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:85 (ament_export_include_directories)
+
+[0m
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_map.h:26[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:10[m[K:
+In copy constructor ‘[01m[Kcommon::DrivingCorridor::DrivingCorridor(const common::DrivingCorridor&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Tp = common::DrivingCorridor][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+    inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = common::DrivingCorridor; _Args = {const common::DrivingCorridor&}; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+    inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = common::DrivingCorridor; _Alloc = Eigen::aligned_allocator<common::DrivingCorridor>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+    inlined from ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’ at [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:152:36[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/basics/semantics.h:797:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdriving_corridor.common::DrivingCorridor::id[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  797 | struct [01;35m[KDrivingCorridor[m[K {
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:[m[K In member function ‘[01m[KErrorType planning::SscMap::ConstructCorridorUsingInitialTrajectory(planning::SscMap::GridMap3D*, vec_E<common::FsVehicle>&)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_map.cc:147:27:[m[K [01;36m[Knote: [m[K‘[01m[Kdriving_corridor[m[K’ declared here
+  147 |   common::DrivingCorridor [01;36m[Kdriving_corridor[m[K;
+      |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::RunQpOptimization()[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:318:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  318 |         for (int k = 0; [01;35m[Kk < ref_stamps.size()[m[K; ++k) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:324:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  324 |         for (int k = 0; [01;35m[Kk < forward_trajs_[i].size()[m[K; ++k) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:247:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  247 |     int [01;35m[Kbeh[m[K = static_cast<int>(forward_behaviors_[i]);
+      |         [01;35m[K^~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlanner::StateTransformForInputData()[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:470:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  470 |     for (int i = 0; [01;35m[Ki < surround_forward_trajs_.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:473:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  473 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:549:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > >, Eigen::aligned_allocator<std::unordered_map<int, std::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  549 |     for (int j = 0; [01;35m[Kj < surround_forward_trajs_.size()[m[K; ++j) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:555:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<common::Vehicle, Eigen::aligned_allocator<common::Vehicle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  555 |         for (int k = 0; [01;35m[Kk < it->second.size()[m[K; ++k) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_planner.cc:9[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+      |      [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+      |      [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_visualizer.h:17[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_visualizer.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+      |      [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+      |      [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:[m[K In member function ‘[01m[KErrorType planning::SscPlannerServer::FilterSingularityState(vec_E<common::State>&, common::State*)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:104:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwheel_base[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  104 |   decimal_t [01;35m[Kwheel_base[m[K = 2.85;
+      |             [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/install/common/include/common/spline/spline_generator.h:17[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_planner.h:21[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/include/ssc_planner/ssc_server_ros.h:21[m[K,
+                 from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner/src/ssc_planner/ssc_server_ros.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:[m[K At global scope:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:371:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::get_coeff(int, int) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  371 | double [01;35m[Kspline[m[K::get_coeff(int n, int j) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:369:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint {anonymous}::tk::spline::num_pts() const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  369 | int [01;35m[Kspline[m[K::num_pts() const { return m_a.size(); }
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:347:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble {anonymous}::tk::spline::operator()(double) const[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  347 | double [01;35m[Kspline[m[K::operator()(double x) const {
+      |        [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:255:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_points(const std::vector<double>&, const std::vector<double>&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  255 | void [01;35m[Kspline[m[K::set_points(const std::vector<double>& x,
+      |      [01;35m[K^~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h:244:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::tk::spline::set_boundary({anonymous}::tk::spline::bd_type, double, {anonymous}::tk::spline::bd_type, double, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  244 | void [01;35m[Kspline[m[K::set_boundary(spline::bd_type left, double left_value,
+      |      [01;35m[K^~~~~~[m[K

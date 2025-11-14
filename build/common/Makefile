@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/core/common
+CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bigdavid/EPSILON_ws/build/common

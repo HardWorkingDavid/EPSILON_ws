@@ -31,9 +31,7 @@ using decimal_t = double;
 // Eigen aliasing
 template <int N>
 using Vecf = Eigen::Matrix<decimal_t, N, 1>;
-// Eigen::Matrix<double, 2, 1>
-// Eigen::Matrix<double, 3, 1>
-// std::vector<Eigen::Matrix<double, 2, 1>>
+
 template <int N>
 using Veci = Eigen::Matrix<int, N, 1>;
 

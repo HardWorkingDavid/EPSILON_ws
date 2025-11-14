@@ -1,4 +1,4 @@
-# Install script for directory: /home/bigdavid/EPSILON_ws/src/core/semantic_map_manager
+# Install script for directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -130,7 +130,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/semantic_map_manager" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/semantic_map_manager" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

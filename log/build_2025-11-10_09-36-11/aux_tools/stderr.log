@@ -1,9 +1,0 @@
-[33mCMake Warning at /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
-  Package 'vehicle_msgs' exports the include directory
-  '/home/bigdavid/EPSILON_ws/src/core/common/thirdparty/OOQP/include' which
-  doesn't exist
-Call Stack (most recent call first):
-  /home/bigdavid/EPSILON_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake:41 (include)
-  CMakeLists.txt:15 (find_package)
-
-[0m

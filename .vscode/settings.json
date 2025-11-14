@@ -120,6 +120,10 @@
     "stop_token": "cpp",
     "thread": "cpp",
     "valarray": "cpp",
-    "core": "cpp"
+    "core": "cpp",
+    "any": "cpp",
+    "hash_map": "cpp",
+    "hash_set": "cpp",
+    "slist": "cpp"
   }
 }

@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/bigdavid/EPSILON_ws/build/vehicle_model': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/vehicle_model -- -j32 -l32
+[0.157s] [100%] Built target hkust_pl_vehicle_model
+[0.172s] Invoked command in '/home/bigdavid/EPSILON_ws/build/vehicle_model' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bigdavid/EPSILON_ws/build/vehicle_model -- -j32 -l32
+[0.179s] Invoking command in '/home/bigdavid/EPSILON_ws/build/vehicle_model': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/vehicle_model
+[0.185s] -- Install configuration: "Release"
+[0.186s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/library_path.sh
+[0.186s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/library_path.dsv
+[0.186s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include
+[0.187s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model
+[0.188s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/vehicle_model.h
+[0.189s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/idm_model.h
+[0.190s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers
+[0.192s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/pure_pursuit_controller.h
+[0.193s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/ctx_idm_velocity_controller.h
+[0.194s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/pid_controller.h
+[0.194s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/controllers/idm_velocity_controller.h
+[0.194s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/ctx_idm_model.h
+[0.195s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/include/vehicle_model/ideal_steer_model.h
+[0.195s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/lib/libhkust_pl_vehicle_model.a
+[0.196s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/package_run_dependencies/vehicle_model
+[0.196s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/parent_prefix_path/vehicle_model
+[0.196s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/ament_prefix_path.sh
+[0.197s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/ament_prefix_path.dsv
+[0.197s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/path.sh
+[0.198s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/environment/path.dsv
+[0.199s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.bash
+[0.200s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.sh
+[0.200s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.zsh
+[0.201s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/local_setup.dsv
+[0.201s] -- Installing: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/package.dsv
+[0.201s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/ament_index/resource_index/packages/vehicle_model
+[0.202s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_libraries-extras.cmake
+[0.202s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.203s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.203s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig.cmake
+[0.204s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/cmake/vehicle_modelConfig-version.cmake
+[0.206s] -- Up-to-date: /home/bigdavid/EPSILON_ws/install/vehicle_model/share/vehicle_model/package.xml
+[0.209s] Invoked command in '/home/bigdavid/EPSILON_ws/build/vehicle_model' returned '0': AMENT_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigdavid/EPSILON_ws/install/common:/opt/ros/humble LD_LIBRARY_PATH=/home/bigdavid/EPSILON_ws/install/common/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bigdavid/EPSILON_ws/build/vehicle_model

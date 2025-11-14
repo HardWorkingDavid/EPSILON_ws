@@ -580,7 +580,7 @@ vehicle_msgs_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/vehicle_msgs
 vehicle_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-vehicle_msgs_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/core/vehicle_msgs
+vehicle_msgs_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_msgs
 
 //Dependencies for the target
 vehicle_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;std_msgs::std_msgs__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;nav_msgs::nav_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -710,7 +710,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/core/vehicle_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

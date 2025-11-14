@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;visualization_msgs;sensor_msgs;geometry_msgs;common;semantic_map_manager")
+set(_exported_dependencies "rclcpp;visualization_msgs;sensor_msgs;common;semantic_map_manager")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

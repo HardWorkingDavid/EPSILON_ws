@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/util/eudm_planner
+CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/eudm_planner
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bigdavid/EPSILON_ws/build/eudm_planner

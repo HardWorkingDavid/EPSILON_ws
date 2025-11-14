@@ -527,7 +527,7 @@ semantic_map_manager_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/semantic_
 semantic_map_manager_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-semantic_map_manager_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager
+semantic_map_manager_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
@@ -665,7 +665,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/core/semantic_map_manager
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

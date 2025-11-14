@@ -356,7 +356,7 @@ behavior_planner_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/behavior_plan
 behavior_planner_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-behavior_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/core/behavior_planner
+behavior_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner
 
 //Dependencies for the target
 behavior_planner_lib_LIB_DEPENDS:STATIC=general;hkust_pl_common;general;hkust_pl_rp;general;hkust_pl_smm;general;hkust_pl_vehicle_model;
@@ -671,7 +671,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/core/behavior_planner
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

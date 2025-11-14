@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/aux_tools
+CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/aux_tools
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bigdavid/EPSILON_ws/build/aux_tools
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/bigdavid/EPSILON_ws/build/aux_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/aux_tools /home/bigdavid/EPSILON_ws/src/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bigdavid/EPSILON_ws/build/aux_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/aux_tools /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools /home/bigdavid/EPSILON_ws/build/aux_tools/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

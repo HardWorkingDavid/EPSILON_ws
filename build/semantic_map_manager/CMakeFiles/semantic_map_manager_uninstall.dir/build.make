@@ -56,7 +56,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/core/semantic_map_manager
+CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bigdavid/EPSILON_ws/build/semantic_map_manager
@@ -85,6 +85,6 @@ CMakeFiles/semantic_map_manager_uninstall.dir/clean:
 .PHONY : CMakeFiles/semantic_map_manager_uninstall.dir/clean
 
 CMakeFiles/semantic_map_manager_uninstall.dir/depend:
-	cd /home/bigdavid/EPSILON_ws/build/semantic_map_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/core/semantic_map_manager /home/bigdavid/EPSILON_ws/src/core/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles/semantic_map_manager_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bigdavid/EPSILON_ws/build/semantic_map_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager /home/bigdavid/EPSILON_ws/build/semantic_map_manager/CMakeFiles/semantic_map_manager_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/semantic_map_manager_uninstall.dir/depend
 

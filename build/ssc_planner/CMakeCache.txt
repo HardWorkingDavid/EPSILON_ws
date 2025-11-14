@@ -554,7 +554,7 @@ ssc_planner_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/ssc_planner
 ssc_planner_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ssc_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/util/ssc_planner
+ssc_planner_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner
 
 //Dependencies for the target
 ssc_server_ros_LIB_DEPENDS:STATIC=general;hkust_pl_ssc;general;hkust_smm_ros;
@@ -686,7 +686,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/util/ssc_planner
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/util/ssc_planner
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

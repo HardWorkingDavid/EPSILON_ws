@@ -1,4 +1,4 @@
-# Install script for directory: /home/bigdavid/EPSILON_ws/src/core/motion_predictor
+# Install script for directory: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/core/motion_predictor/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -122,7 +122,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_predictor" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/core/motion_predictor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_predictor" TYPE FILE FILES "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

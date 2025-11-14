@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8f77f0c42ad52ab0318b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning_integrated",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_integrated_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_integrated_uninstall-Release-6cb960776a22db1f408b.json",
+					"name" : "planning_integrated_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ssc_with_eudm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ssc_with_eudm-Release-59bfe938dd0dfaa86e6a.json",
+					"name" : "test_ssc_with_eudm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ssc_with_mpdm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ssc_with_mpdm-Release-35466c7a900c4c1d2fd4.json",
+					"name" : "test_ssc_with_mpdm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-07b39840c8a3f1094f29.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bigdavid/EPSILON_ws/build/planning_integrated",
+		"source" : "/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/app/planning_integrated"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

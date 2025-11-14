@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/core/vehicle_model
+CMAKE_SOURCE_DIR = /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bigdavid/EPSILON_ws/build/vehicle_model
@@ -70,116 +70,116 @@ include CMakeFiles/hkust_pl_vehicle_model.dir/progress.make
 include CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/vehicle_model.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/vehicle_model.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/vehicle_model.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/vehicle_model.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/vehicle_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/vehicle_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/vehicle_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/vehicle_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/vehicle_model.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ideal_steer_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ideal_steer_model.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/idm_model.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/idm_model.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/idm_model.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/idm_model.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/idm_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/idm_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/idm_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/idm_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/idm_model.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/ctx_idm_model.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/ctx_idm_model.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pure_pursuit_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pure_pursuit_controller.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/pid_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/pid_controller.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/idm_velocity_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/idm_velocity_controller.cc.s
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/flags.make
-CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o: /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc
+CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o: /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o: CMakeFiles/hkust_pl_vehicle_model.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o -MF CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o.d -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.o -c /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.i"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.i
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc > CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.i
 
 CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.s"
-	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.s
+	/usr/lib/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc -o CMakeFiles/hkust_pl_vehicle_model.dir/src/vehicle_model/controllers/ctx_idm_velocity_controller.cc.s
 
 # Object files for target hkust_pl_vehicle_model
 hkust_pl_vehicle_model_OBJECTS = \
@@ -218,6 +218,6 @@ CMakeFiles/hkust_pl_vehicle_model.dir/clean:
 .PHONY : CMakeFiles/hkust_pl_vehicle_model.dir/clean
 
 CMakeFiles/hkust_pl_vehicle_model.dir/depend:
-	cd /home/bigdavid/EPSILON_ws/build/vehicle_model && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/core/vehicle_model /home/bigdavid/EPSILON_ws/src/core/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bigdavid/EPSILON_ws/build/vehicle_model && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model /home/bigdavid/EPSILON_ws/build/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hkust_pl_vehicle_model.dir/depend
 

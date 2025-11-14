@@ -413,7 +413,7 @@ motion_predictor_BINARY_DIR:STATIC=/home/bigdavid/EPSILON_ws/build/motion_predic
 motion_predictor_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-motion_predictor_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/core/motion_predictor
+motion_predictor_SOURCE_DIR:STATIC=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor
 
 //The directory containing a CMake configuration file for orocos_kdl.
 orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
@@ -650,7 +650,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/core/motion_predictor
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/motion_predictor
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

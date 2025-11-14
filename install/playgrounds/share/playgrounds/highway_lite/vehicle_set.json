@@ -3,7 +3,7 @@
     "_COMMENT": "[Vehicles info] - START",
     "__COMMENT": "Vehicle Subclass: car, van, truck.",
     "___COMMENT": "Vehicle Type: VehicleWithBicycleKinematics, VehicleDoubleIntegratorKinematics, VehicleSingleIntegratorKinematics",
-    "num": 7,
+    "num": 11,
     "info": [
       {
         "id": 0,
@@ -34,9 +34,9 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 119.0,
-          "y": -254.0,
-          "angle": -1.085,
+          "x": 140.54,
+          "y": -297.376,
+          "angle": -1.132,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,
@@ -58,9 +58,9 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 143.0,
-          "y": -301.0,
-          "angle": -1.085,
+          "x": 137.90,
+          "y": -292.001,
+          "angle": -1.088,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,
@@ -82,9 +82,9 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 149.0,
-          "y": -314.0,
-          "angle": -1.085,
+          "x": 143.225,
+          "y": -302.906,
+          "angle": -1.148,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,
@@ -106,9 +106,9 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 153.0,
-          "y": -322.0,
-          "angle": -1.085,
+          "x": 128.07,
+          "y": -272.434,
+          "angle": -1.107,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,
@@ -130,9 +130,9 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 142.0,
-          "y": -307.0,
-          "angle": -1.085,
+          "x": 125.248,
+          "y": -266.368,
+          "angle": -1.15,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,
@@ -154,9 +154,105 @@
         "subclass": "car",
         "type": "VehicleWithBicycleKinematics",
         "init_state": {
-          "x": 106.0,
-          "y": -238.0,
-          "angle": -1.085,
+          "x": 121.86,
+          "y": -259.316,
+          "angle": -1.15,
+          "curvature": 0.0,
+          "velocity": 0.0,
+          "acceleration": 0.0,
+          "steer": 0.0
+        },
+        "params": {
+          "width": 1.90,
+          "length": 4.88,
+          "wheel_base": 2.85,
+          "front_suspension": 0.93,
+          "rear_suspension": 1.10,
+          "max_steering_angle": 45.0,
+          "max_longitudinal_acc": 2.0,
+          "max_lateral_acc": 2.0
+        }
+      },
+      {
+        "id": 7,
+        "subclass": "car",
+        "type": "VehicleWithBicycleKinematics",
+        "init_state": {
+          "x": 134.461,
+          "y": -285.694,
+          "angle": -1.107,
+          "curvature": 0.0,
+          "velocity": 0.0,
+          "acceleration": 0.0,
+          "steer": 0.0
+        },
+        "params": {
+          "width": 1.90,
+          "length": 4.88,
+          "wheel_base": 2.85,
+          "front_suspension": 0.93,
+          "rear_suspension": 1.10,
+          "max_steering_angle": 45.0,
+          "max_longitudinal_acc": 2.0,
+          "max_lateral_acc": 2.0
+        }
+      },
+      {
+        "id": 8,
+        "subclass": "car",
+        "type": "VehicleWithBicycleKinematics",
+        "init_state": {
+          "x": 118.67,
+          "y": -252.849,
+          "angle": -1.038,
+          "curvature": 0.0,
+          "velocity": 0.0,
+          "acceleration": 0.0,
+          "steer": 0.0
+        },
+        "params": {
+          "width": 1.90,
+          "length": 4.88,
+          "wheel_base": 2.85,
+          "front_suspension": 0.93,
+          "rear_suspension": 1.10,
+          "max_steering_angle": 45.0,
+          "max_longitudinal_acc": 2.0,
+          "max_lateral_acc": 2.0
+        }
+      },
+      {
+        "id": 9,
+        "subclass": "car",
+        "type": "VehicleWithBicycleKinematics",
+        "init_state": {
+          "x": 131.52,
+          "y": -279.357,
+          "angle": -1.131,
+          "curvature": 0.0,
+          "velocity": 0.0,
+          "acceleration": 0.0,
+          "steer": 0.0
+        },
+        "params": {
+          "width": 1.90,
+          "length": 4.88,
+          "wheel_base": 2.85,
+          "front_suspension": 0.93,
+          "rear_suspension": 1.10,
+          "max_steering_angle": 45.0,
+          "max_longitudinal_acc": 2.0,
+          "max_lateral_acc": 2.0
+        }
+      },
+      {
+        "id": 10,
+        "subclass": "car",
+        "type": "VehicleWithBicycleKinematics",
+        "init_state": {
+          "x": 144.7,
+          "y": -312.951,
+          "angle": -1.022,
           "curvature": 0.0,
           "velocity": 0.0,
           "acceleration": 0.0,

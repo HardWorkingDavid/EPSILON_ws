@@ -57,7 +57,7 @@ class RoutePlanner : public Planner {
 
   int nearest_lane_id_;
 
-  NaviStatus navi_status_ = kReadyToGo; // kFinished
+  NaviStatus navi_status_ = kReadyToGo;
   NaviMode navi_mode_ = kRandomExpansion;
 
   bool if_restart_ = true;

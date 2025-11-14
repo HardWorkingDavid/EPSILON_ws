@@ -1,0 +1,22 @@
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:[m[K In constructor ‘[01m[Kplanning::BehaviorPlannerServer::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node>, int)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:92:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanning::BehaviorPlannerServer::work_rate_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   92 |   double [01;35m[Kwork_rate_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:91:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint planning::BehaviorPlannerServer::ego_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   91 |   int [01;35m[Kego_id_[m[K;
+      |       [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    5 | [01;35m[KBehaviorPlannerServer[m[K::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node> node, int ego_id)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:1[m[K:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:[m[K In constructor ‘[01m[Kplanning::BehaviorPlannerServer::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node>, double, int)[m[K’:
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:92:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanning::BehaviorPlannerServer::work_rate_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   92 |   double [01;35m[Kwork_rate_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/include/behavior_planner/behavior_server_ros.h:91:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint planning::BehaviorPlannerServer::ego_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   91 |   int [01;35m[Kego_id_[m[K;
+      |       [01;35m[K^~~~~~~[m[K
+[01m[K/home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/behavior_planner/src/behavior_planner/behavior_server_ros.cc:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   11 | [01;35m[KBehaviorPlannerServer[m[K::BehaviorPlannerServer(std::shared_ptr<rclcpp::Node> node, double work_rate, int ego_id)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K

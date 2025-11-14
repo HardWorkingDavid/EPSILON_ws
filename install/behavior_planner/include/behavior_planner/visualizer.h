@@ -20,42 +20,39 @@
 
 namespace planning {
 
-// 行为规划可视化处理
 class BehaviorPlannerVisualizer {
  public:
   BehaviorPlannerVisualizer(std::shared_ptr<rclcpp::Node> node, BehaviorPlanner* ptr_bp, int ego_id)
       : node_(node), ego_id_(ego_id) {
     p_bp_ = ptr_bp;
   }
-  // 初始化：设置前向轨迹的可视化话题
+
   void Init() {
     std::string forward_traj_topic = std::string("/vis/agent_") +
                                      std::to_string(ego_id_) +
                                      std::string("/forward_trajs");
-    // 创建一个发布器，用于发布轨迹数据
     forward_traj_vis_pub_ = node_->create_publisher<visualization_msgs::msg::MarkerArray>(forward_traj_topic, 1);
   }
 
-  // 发布带时间戳的数据
   void PublishDataWithStamp(const rclcpp::Time& stamp) {
     if (p_bp_ == nullptr) return;
-    auto forward_trajs = p_bp_->forward_trajs();           // 获取前向轨迹
-    visualization_msgs::msg::MarkerArray traj_list_marker; // 存储所有轨迹的标记数组
-    common::ColorARGB traj_color = common::cmap.at("gold");// 颜色设置为金色
-    for (const auto& traj : forward_trajs) { // 遍历每一条前向轨迹
-      std::vector<common::Point> points;     // 存储轨迹点
-      for (const auto& v : traj) {           // 遍历轨迹上的每个点
+    auto forward_trajs = p_bp_->forward_trajs();
+    visualization_msgs::msg::MarkerArray traj_list_marker;
+    common::ColorARGB traj_color = common::cmap.at("gold");
+    for (const auto& traj : forward_trajs) {
+      std::vector<common::Point> points;
+      for (const auto& v : traj) {
         common::Point pt(v.state().vec_position(0), v.state().vec_position(1));
         pt.z = 0.3;
         points.push_back(pt);
         visualization_msgs::msg::Marker point_marker;
         common::VisualizationUtil::GetRosMarkerCylinderUsingPoint(
             common::Point(pt), Vec3f(0.5, 0.5, 0.1), traj_color, 0,
-            &point_marker); // 设置标记为圆柱体
-        traj_list_marker.markers.push_back(point_marker); // 将点标记加入标记数组
+            &point_marker);
+        traj_list_marker.markers.push_back(point_marker);
       }
-      visualization_msgs::msg::Marker line_marker;        // 创建轨迹线标记
-      common::VisualizationUtil::GetRosMarkerLineStripUsingPoints( // 使用点集创建轨迹线
+      visualization_msgs::msg::Marker line_marker;
+      common::VisualizationUtil::GetRosMarkerLineStripUsingPoints(
           points, Vec3f(0.1, 0.1, 0.1), traj_color, 0, &line_marker);
       traj_list_marker.markers.push_back(line_marker);
     }
@@ -63,7 +60,7 @@ class BehaviorPlannerVisualizer {
     common::VisualizationUtil::FillHeaderIdInMarkerArray(
         stamp, std::string("map"), last_forward_trajs_marker_cnt_,
         &traj_list_marker);
-    last_forward_trajs_marker_cnt_ = num_markers;         // 更新标记计数
+    last_forward_trajs_marker_cnt_ = num_markers;
     forward_traj_vis_pub_->publish(traj_list_marker);
   }
 

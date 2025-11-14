@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target test_ssc_with_mpdm[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ssc_with_eudm[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ssc_with_mpdm.dir/src/test_ssc_with_mpdm.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_ssc_with_eudm.dir/src/test_ssc_with_eudm.cc.o[0m
+[ 75%] [32m[1mLinking CXX executable test_ssc_with_mpdm[0m
+[100%] [32m[1mLinking CXX executable test_ssc_with_eudm[0m
+[100%] Built target test_ssc_with_mpdm
+[100%] Built target test_ssc_with_eudm
+-- Install configuration: "Release"
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_mpdm
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_mpdm" to ""
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_eudm
+-- Set runtime path of "/home/bigdavid/EPSILON_ws/install/planning_integrated/lib/planning_integrated/test_ssc_with_eudm" to ""
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_eudm_ros.launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_mpdm_ros.launch
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_mpdm_ros_launch.py
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/launch/test_ssc_with_eudm_ros_launch.py
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/package_run_dependencies/planning_integrated
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/parent_prefix_path/planning_integrated
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/path.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/environment/path.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.bash
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.sh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.zsh
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/local_setup.dsv
+-- Installing: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/package.dsv
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/ament_index/resource_index/packages/planning_integrated
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/planning_integratedConfig.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/cmake/planning_integratedConfig-version.cmake
+-- Up-to-date: /home/bigdavid/EPSILON_ws/install/planning_integrated/share/planning_integrated/package.xml

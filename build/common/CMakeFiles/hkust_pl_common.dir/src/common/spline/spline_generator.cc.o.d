@@ -1,7 +1,7 @@
 CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
- /home/bigdavid/EPSILON_ws/src/core/common/src/common/spline/spline_generator.cc \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/src/common/spline/spline_generator.cc \
  /usr/include/stdc-predef.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/spline/spline_generator.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/spline/spline_generator.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -44,9 +44,9 @@ CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/basics.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/macros.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/tic_toc.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/basics.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/macros.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/tic_toc.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -403,7 +403,7 @@ CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
  /usr/local/include/eigen3/Eigen/StdVector \
  /usr/local/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/local/include/eigen3/Eigen/src/StlSupport/details.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/backward.hpp \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/backward.hpp \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -480,8 +480,8 @@ CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/elfutils/libdwfl.h /usr/include/elfutils/libdw.h \
  /usr/include/dwarf.h /usr/lib/gcc/x86_64-linux-gnu/11/include/unwind.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/semantics.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/shapes.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/semantics.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/shapes.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
@@ -526,18 +526,18 @@ CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/colormap.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/math/calculations.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/tool_func.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/lane/lane.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/basics/config.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/spline/spline.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/spline/polynomial.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/spline/lookup_table.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/state/state.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/state/free_state.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/state/frenet_state.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/solver/qp_solver.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/colormap.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/math/calculations.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/tool_func.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/lane/lane.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/basics/config.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/spline/spline.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/spline/polynomial.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/spline/lookup_table.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/state/state.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/state/free_state.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/state/frenet_state.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/solver/qp_solver.h \
  /usr/local/include/eigen3/Eigen/SparseCore \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
@@ -573,7 +573,7 @@ CMakeFiles/hkust_pl_common.dir/src/common/spline/spline_generator.cc.o: \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/spline/bezier.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/state/waypoint.h \
- /home/bigdavid/EPSILON_ws/src/core/common/thirdparty/tk_spline/spline.h \
- /home/bigdavid/EPSILON_ws/src/core/common/include/common/solver/ooqp_interface.h
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/spline/bezier.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/state/waypoint.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/thirdparty/tk_spline/spline.h \
+ /home/bigdavid/EPSILON_ws/src/EPSILON_ROS2/core/common/include/common/solver/ooqp_interface.h
